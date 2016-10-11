@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 # etaracizumab has a trailing ' on the light chain
+# emicizumab is a bispecific
 
 use strict;
 
@@ -35,6 +36,8 @@ sub ProcessFile
     my $gotSequence = 0;
     my $fusion      = 0;
     my $isAntibody  = 0;
+    my $hcCount     = '';
+    my $lcCount     = '';
 
     while(<$fp>)
     {
@@ -52,6 +55,8 @@ sub ProcessFile
             $abname      = DeLatinify($abname);
             $gotSequence = 0;
             $isAntibody  = 1;
+            $hcCount     = '';
+            $lcCount     = '';
             print "\n\n";
         }
         elsif(/^\s?[a-zA-Z]+um\s/ ||
@@ -64,32 +69,48 @@ sub ProcessFile
             if(/fused/i)
             {
                 $fusion = 1;
-                print ">$abname|Heavy|Fusion\n";
+                print ">$abname|Heavy$hcCount|Fusion\n";
             }
             else
             {
                 $fusion = 0;
-                print ">$abname|Heavy\n";
+                print ">$abname|Heavy$hcCount\n";
             }
             $inHeavy = 1;
             $inLight = 0;
             $gotSequence = 1;
+            if($hcCount eq '')
+            {
+                $hcCount = 2;
+            }
+            else
+            {
+                $hcCount++;
+            }
         }
         elsif($isAntibody && /Light chain /)
         {
             if(/fused/i)
             {
                 $fusion = 1;
-                print ">$abname|Light|Fusion\n";
+                print ">$abname|Light$lcCount|Fusion\n";
             }
             else
             {
                 $fusion = 0;
-                print ">$abname|Light\n";
+                print ">$abname|Light$lcCount\n";
             }
             $inHeavy = 0;
             $inLight = 1;
             $gotSequence = 1;
+            if($lcCount eq '')
+            {
+                $lcCount = 2;
+            }
+            else
+            {
+                $lcCount++;
+            }
         }
         elsif(!length)
         {
