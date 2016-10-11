@@ -44,7 +44,7 @@ sub ProcessFile
         chomp;
 
 
-        if(/^\s?([a-zA-Z]+mabum.*)\s+\#/)
+        if(/^\s?([a-zA-Z]+mabum.*)\s?[\#\*]/)
         {
             if(($abname ne '') && (!$gotSequence))
             {
@@ -64,9 +64,9 @@ sub ProcessFile
         {
             $isAntibody = 0;
         }
-        elsif($isAntibody && /Heavy chain /)
+        elsif($isAntibody && /Heavy chain[\s\-]/)
         {
-            if(/fused/i)
+            if(/fused/i || /toxin/i)
             {
                 $fusion = 1;
                 print ">$abname|Heavy$hcCount|Fusion\n";
@@ -88,9 +88,9 @@ sub ProcessFile
                 $hcCount++;
             }
         }
-        elsif($isAntibody && /Light chain /)
+        elsif($isAntibody && /Light chain[\s\-]/)
         {
-            if(/fused/i)
+            if(/fused/i || /toxin/i)
             {
                 $fusion = 1;
                 print ">$abname|Light$lcCount|Fusion\n";
