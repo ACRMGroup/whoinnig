@@ -64,7 +64,9 @@ sub ProcessFile
         {
             $isAntibody = 0;
         }
-        elsif($isAntibody && /Heavy chain[\s\-]/)
+        elsif($isAntibody && (/Heavy chain\s*\//i) ||
+                             (/Heavy chain\s*-.*\//))
+
         {
             if(/fused/i || /toxin/i)
             {
@@ -88,8 +90,12 @@ sub ProcessFile
                 $hcCount++;
             }
         }
-        elsif($isAntibody && /Light chain[\s\-]/)
+        elsif($isAntibody && (/Light chain\s*\//i) ||
+                             (/Light chain\s*-.*\//) || # citatuzumab
+                             (/k chain\s*\//i))
         {
+            # bavituximab has 'k chain' instead of 'Light chain'
+            # tenatumomab light has no space before the /
             if(/fused/i || /toxin/i)
             {
                 $fusion = 1;
@@ -114,10 +120,15 @@ sub ProcessFile
         }
         elsif(!length)
         {
-            $inHeavy = 0;
-            $inLight = 0;
+#            $inHeavy = 0;
+#            $inLight = 0;
         }
-        elsif(/Disulphide/ || /Disulfide/ || /N-glyc/ || /Modified/)
+        elsif(/Disulphide/ || /Disulfide/ || 
+              /N-glyc/ || 
+              /Modified/ ||
+              /chain/ ||
+              /Hinge/ ||        # onartuzumab
+              /cysteine/)       # gantenerumab
         {
             $inHeavy = 0;
             $inLight = 0;

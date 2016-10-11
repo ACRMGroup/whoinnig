@@ -20,3 +20,47 @@ Scripts to extract antibody sequence data from the INN data
 
         
         
+Notes
+=====
+
+Not available in the text INN files
+
+- gemtuzumab ozogamicin
+- abciximab
+- nofetumomab (diagnositic)
+- imiciromab (diagnositic)
+- arcitumomab (diagnositic)
+- infliximab
+- adalimumab
+- natalizumab
+- rituximab
+- vendolizumab
+- alemtuzumab
+- pantumumab
+- palivizumab
+- muromonab
+- basiliximab
+- abciximab
+
+Partially in INN files
+
+- 'trastuzumab emtansine' appears but not normal 'trastuzumab'
+
+Nonstandard entries without a # or *
+
+- inotuzumabum ozogamicinum
+- ranibizumab
+- certolizumab
+- sulesomab
+- omalizumab
+- certolizumab pegol
+- ofatumumab
+- pertuzumab
+- raxibacumab
+- golimumab
+- tocilizumab
+- belimumab
+- eculizumab
+- ranibizumab
+
+
