@@ -65,6 +65,7 @@ sub ProcessFile
             $isAntibody = 0;
         }
         elsif($isAntibody && (/Heavy chain\s*\//i) ||
+                             (/Heavy chain H.*\//i) || # cergutuzumab
                              (/Heavy chain\s*-.*\//))
 
         {
@@ -91,6 +92,7 @@ sub ProcessFile
             }
         }
         elsif($isAntibody && (/Light chain\s*\//i) ||
+                             (/Light chain L.*\//i) ||
                              (/Light chain\s*-.*\//) || # citatuzumab
                              (/k chain\s*\//i))
         {
