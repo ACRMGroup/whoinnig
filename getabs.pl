@@ -44,8 +44,6 @@ sub ProcessFile
         chomp;
 
 
-        last if(/AMENDMENTS/);
-
         if(/^\s?([a-zA-Z]+mabum.*)\s?[\#\*]/)
         {
             if(($abname ne '') && (!$gotSequence))
@@ -63,6 +61,10 @@ sub ProcessFile
         }
         elsif(/^\s?[a-zA-Z]+um\s/ ||
               /^\s?[a-zA-Z]+um$/)
+        {
+            $isAntibody = 0;
+        }
+        elsif(/AMENDMENT/)
         {
             $isAntibody = 0;
         }
