@@ -44,6 +44,8 @@ sub ProcessFile
         chomp;
 
 
+        last if(/AMENDMENTS/);
+
         if(/^\s?([a-zA-Z]+mabum.*)\s?[\#\*]/)
         {
             if(($abname ne '') && (!$gotSequence))
