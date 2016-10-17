@@ -22,7 +22,7 @@ else
 }
 
 
-for(my $i=1; $i<$maxInn; $i++)
+for(my $i=1; $i<=$maxInn; $i++)
 {
     my $filename = '';
     if(defined($::p))
@@ -50,6 +50,9 @@ getlists V1.0
 
 getlists [-n maxinn] [-f] [-p]
          -n Specify last INN file to grab [Default 
+            $::maxRecInn for recommended and $::maxPropInn for proposed.
+         -p Get proposed files instead of recommended
+         -f Force getting files even if they exist already
 
 Grabs all the INN recommended or proposed name PDF files
 
