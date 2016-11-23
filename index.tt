@@ -21,69 +21,73 @@
     Names documents.</p>
   </div> <!-- alert -->
 
+  <div class="alert alert-danger">
+    <p>This resource is still under development and some checking of
+    sequences still needs to be performed! Use with caution!</p>
+  </div> <!-- alert -->
 
 
-   <h3>Latest File:</h3>
+  <h3>Latest File:</h3>
 
-   <div class='acrmtable acrmtable-warning'>
-      <table>
-         <colgroup>
-            <col class='whoinnigfilename' />
-            <col class='whoinnigdate'     />
-            <col class='whoinniglink'     />
-         </colgroup>
+  <div class='acrmtable acrmtable-warning'>
+    <table>
+      <colgroup>
+        <col class='whoinnigfilename' />
+        <col class='whoinnigdate'     />
+        <col class='whoinniglink'     />
+      </colgroup>
 
-         <tr>
-            <th>File</th>
-            <th>Date</th>
-            <th>Link</th>
-         </tr>
-         [% INCLUDE 'generated_latest.tt' %]
-      </table>
+      <tr>
+        <th>File</th>
+        <th>Date</th>
+        <th>Link</th>
+      </tr>
+      [% INCLUDE 'generated_latest.tt' %]
+    </table>
 
-      <h3>Previous Files:</h3>
-      <table>
-         <colgroup>
-            <col class='whoinnigfilename' />
-            <col class='whoinnigdate'     />
-            <col class='whoinniglink'     />
-         </colgroup>
-         <tr>
-            <th>File</th>
-            <th>Date</th>
-            <th>Link</th>
-         </tr>
-         [% INCLUDE 'generated_previous.tt' %]
-      </table>
-   </div> <!-- /acrmtable -->
+    <h3>Previous Files:</h3>
+    <table>
+      <colgroup>
+        <col class='whoinnigfilename' />
+        <col class='whoinnigdate'     />
+        <col class='whoinniglink'     />
+      </colgroup>
+      <tr>
+        <th>File</th>
+        <th>Date</th>
+        <th>Link</th>
+      </tr>
+      [% INCLUDE 'generated_previous.tt' %]
+    </table>
+  </div> <!-- /acrmtable -->
 
 
-   <div class="panel panel-warning">
-      <div class="panel-heading">
-         <h3 class="panel-title">Information</h3>
-      </div>
+  <div class="panel panel-warning">
+    <div class="panel-heading">
+      <h3 class="panel-title">Information</h3>
+    </div>
 
-      <p>WHOINNIG is a FASTA file containing antibody sequences
-      extracted from the recommended names documents of the World
-      Health Organization (WHO) International Nonproprietary Naming
-      (INN) committee.</p>
+    <p>WHOINNIG is a FASTA file containing antibody sequences
+    extracted from the recommended names documents of the World
+    Health Organization (WHO) International Nonproprietary Naming
+    (INN) committee.</p>
 
-      <p>The original documents may be obtained as <a
-      href='http://www.who.int/medicines/publications/druginformation/innlists/en/'>PDF
-      files</a> or the individual sequences in Word files from <a
-      href='https://mednet-communities.net/inn/'>MedNet INN</a>.</p>
+    <p>The original documents may be obtained as <a
+    href='http://www.who.int/medicines/publications/druginformation/innlists/en/'>PDF
+    files</a> or the individual sequences in Word files from <a
+    href='https://mednet-communities.net/inn/'>MedNet INN</a>.</p>
 
-      <p>The Word documents from MedNet INN are automatically
-      converted to plain text using <a
-      href='https://www.libreoffice.org/'>LibreOffice</a> and the
-      sequences extracted and formatted as FASTA. Some sequences
-      (particularly for older entries) are only available as images,
-      and we have extracted these using optical character recognition
-      using <a href='https://github.com/tesseract-ocr'>tesseract</a>
-      followed by manual checking. Unfortunately sequence data are not
-      available for some of the earliest entries.</p>
+    <p>The Word documents from MedNet INN are automatically
+    converted to plain text using <a
+    href='https://www.libreoffice.org/'>LibreOffice</a> and the
+    sequences extracted and formatted as FASTA. Some sequences
+    (particularly for older entries) are only available as images,
+    and we have extracted these using optical character recognition
+    using <a href='https://github.com/tesseract-ocr'>tesseract</a>
+    followed by manual checking. Unfortunately sequence data are not
+    available for some of the earliest entries.</p>
 
-   </div> <!-- /panel -->
+  </div> <!-- /panel -->
 
 
 
