@@ -1,0 +1,11 @@
+Convert a word document to text with
+
+libreoffice --headless --convert-to txt:text mydocument.doc
+
+Note that this won't work if there are other instances of libreoffice
+already running!
+
+See: 
+http://stackoverflow.com/questions/5671988/how-to-extract-just-plain-text-from-doc-docx-files-unix
+
+
