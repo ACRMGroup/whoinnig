@@ -8,6 +8,12 @@ already running!
 See: 
 http://stackoverflow.com/questions/5671988/how-to-extract-just-plain-text-from-doc-docx-files-unix
 
+http://docx2txt.sourceforge.net/
+http://abisource.com/downloads/wv/
+http://libopc.codeplex.com/
+https://www.wagner.pp.ru/~vitus/software/catdoc/
+https://github.com/petewarden/catdoc
+
 
 
 
