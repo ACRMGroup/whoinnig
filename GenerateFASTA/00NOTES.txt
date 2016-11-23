@@ -9,3 +9,8 @@ See:
 http://stackoverflow.com/questions/5671988/how-to-extract-just-plain-text-from-doc-docx-files-unix
 
 
+
+
+URL for word files:
+https://mednet-communities.net/inn/db/media/docs/nnnn.doc
+
