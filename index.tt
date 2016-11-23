@@ -3,51 +3,20 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="curvedtable.css" />
 <link rel="stylesheet" href="acrmtable.css" />
-<style type='text/css'>
-   col.sacsdetail {width: 4em;}
-   col.sacspdb {width: 3.5em;}
-   col.sacsfragment {width: 6em;}
-   col.sacsname {width: 15em;}
-   col.sacslight {width: 5em;}
-   col.sacsheavy {width: 4em;}
-   col.sacsmethod {width: 4em;}
-   col.sacsresol {width: 4em;}
-   col.sacsantigen {width: 15em;}
-   col.sacscomplex {width: 5.5em;}
-   col.sacsl1 {width: 2em;}
-   col.sacsl2 {width: 2em;}
-   col.sacsl3 {width: 2em;}
-   col.sacsh1 {width: 2em;}
-   col.sacsh2 {width: 2em;}
-   col.sacsh3 {width: 2em;}
-   col.sacsdate {width: 6em;}
-   .acrmtable td a:link, .acrmtable td a:visited, .acrmtable td a:hover, .acrmtable td a:active {color: white;}
-   .acrmtable td, .acrmtable th {font-size: 8pt;}
-</style>
 
-<script>
-function ShowPopup(url)
-{
-    window.open(url, 'sacspopup', config='height=600,width=600,toolbar=no,menubar=no,resizable=no,titlebar=no,location=no,status=no');
-}
-</script>
-
-
-
-<script src='ajaxgetpage.js'></script>
 [% INCLUDE menu.tt %]
 
 
 <div class='container theme-showcase'>
   <div class="jumbotron">      
-    <h1>abYbank / SACS</h1>
+    <h1>abYbank / INNIG</h1>
     <h2>Antibody data resources</h2>
-    <h3>SACS</h3>
+    <h3>INNIG</h3>
   </div> <!-- jumbotron -->
 
   <div class="alert alert-success">
-    <p>SACS (Summary of Antibody Crystal Structures) is a list of antibodies extracted from
-    the PDB with automatically extracted information.</p>
+    <p>INNIG (WHO International Nonproprietary Naming Committee Immunoglobulines) contains FASTA sequences for antibodies extracted from
+    the WHO INN Recommended Names documents.</p>
   </div> <!-- alert -->
 
   <p>Last updated <b>[% INCLUDE 'lastupdated.tt' %]</b></p>
