@@ -1,4 +1,20 @@
-Scripts to extract antibody sequence data from the INN data
+WHOINNIg
+========
+
+These are scripts to extract data about antibody sequences in the WHO
+INN and build our web site as part of abYbank.
+
+Files in the main directory are for extracting information from the
+Word files that are available for each individual antibody.
+
+
+
+
+ExtractFromPDF
+--------------
+
+These scripts are designed to extract antibody sequence data from the
+INN PDF files.
 
 ./getlists.pl     - Obtains the Recommended INN PDFs from the WHO website
                     With '-p' obtains the Proposed INN PDFs
