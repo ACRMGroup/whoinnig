@@ -9,72 +9,84 @@
 
 <div class='container theme-showcase'>
   <div class="jumbotron">      
-    <h1>abYbank / INNIG</h1>
+    <h1>abYbank / WHOINNIG</h1>
     <h2>Antibody data resources</h2>
-    <h3>INNIG</h3>
+    <h3>WHOINNIG</h3>
   </div> <!-- jumbotron -->
 
-  <div class="alert alert-success">
-    <p>INNIG (WHO International Nonproprietary Naming Committee Immunoglobulines) contains FASTA sequences for antibodies extracted from
-    the WHO INN Recommended Names documents.</p>
+  <div class="alert alert-warning">
+    <p>WHOINNIG (World Health Organization International
+    Nonproprietary Naming Committee Immunoglobulins) contains FASTA
+    sequences for antibodies extracted from the WHO INN Recommended
+    Names documents.</p>
   </div> <!-- alert -->
 
-  <p>Last updated <b>[% INCLUDE 'lastupdated.tt' %]</b></p>
 
-  <h2>Download Dataset As XML</h2>
 
-  <p><a href='xml/antibodies.xml' class='btn btn-success' download='antibodies.xml'>Download</a></p>
+   <h3>Latest File:</h3>
 
-  <h2>View Dataset</h2>
+   <div class='acrmtable acrmtable-warning'>
+      <table>
+         <colgroup>
+            <col class='whoinnigfilename' />
+            <col class='whoinnigdate'     />
+            <col class='whoinniglink'     />
+         </colgroup>
 
-  <script>
-    function SortData() {
-      var select = document.getElementById('sortby');
-      if(select != null)
-      {
-        var sortby = select.value;
-        var url    = './sacssummary.cgi?sort=' + sortby;
-        GetAJAXPage(url);
-      }
-    }
-  </script>
+         <tr>
+            <th>File</th>
+            <th>Date</th>
+            <th>Link</th>
+         </tr>
+         [% INCLUDE 'generated_latest.tt' %]
+      </table>
 
-  <div id='ajaxthrobber'>
-    <div class="progress">
-      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-        <span class="sr-only">100% Complete</span>
+      <h3>Previous Files:</h3>
+      <table>
+         <colgroup>
+            <col class='whoinnigfilename' />
+            <col class='whoinnigdate'     />
+            <col class='whoinniglink'     />
+         </colgroup>
+         <tr>
+            <th>File</th>
+            <th>Date</th>
+            <th>Link</th>
+         </tr>
+         [% INCLUDE 'generated_previous.tt' %]
+      </table>
+   </div> <!-- /acrmtable -->
+
+
+   <div class="panel panel-warning">
+      <div class="panel-heading">
+         <h3 class="panel-title">Information</h3>
       </div>
-    </div>
-  </div> <!-- ajaxthrobber -->
 
-  <div id='ajaxcontainer'>
-    <div class='btn-group dropup'>
-      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Sort... <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu">
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=pdb');">PDB</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=name');">Name</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=antigen');">Antigen</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=resolution');">Resolution</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=l1');">L1 length</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=l2');">L2 length</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=l3');">L3 length</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=h1');">H1 length</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=h2');">H2 length</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=h3');">H3 length</a><li>
-        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=date');">Date</a><li>
-      </ul>
-    </div>
+      <p>WHOINNIG is a FASTA file containing antibody sequences
+      extracted from the recommended names documents of the World
+      Health Organization (WHO) International Nonproprietary Naming
+      (INN) committee.</p>
 
-    <div class="acrmtable acrmtable-success">
-      <div id='ajaxcontent'></div>
-    </div> <!-- acrmtable -->
-  </div> <!-- ajaxcontainer -->
+      <p>The original documents may be obtained as <a
+      href='http://www.who.int/medicines/publications/druginformation/innlists/en/'>PDF
+      files</a> or the individual sequences in Word files from <a
+      href='https://mednet-communities.net/inn/'>MedNet INN</a>.</p>
 
-  <script language='javascript' type='text/javascript'>
-    GetAJAXPage('./sacssummary.cgi');
-  </script>
+      <p>The Word documents from MedNet INN are automatically
+      converted to plain text using <a
+      href='https://www.libreoffice.org/'>LibreOffice</a> and the
+      sequences extracted and formatted as FASTA. Some sequences
+      (particularly for older entries) are only available as images,
+      and we have extracted these using optical character recognition
+      using <a href='https://github.com/tesseract-ocr'>tesseract</a>
+      followed by manual checking. Unfortunately sequence data are not
+      available for some of the earliest entries.</p>
+
+   </div> <!-- /panel -->
+
+
+
 </div> <!-- /container -->
 
 [% INCLUDE footer.tt %]

@@ -1,0 +1,16 @@
+.panel p {padding: 1em 1em 0 1em};
+
+.embligresults {padding: 0 0 2em 0;
+                margin: 0 0 2em 0;
+}
+
+.right {text-align: right;}
+
+.center, .centre {text-align: center;}
+
+
+/* Spacing of columns in download table */
+col.whoinnigfilename { width: 20em; }
+col.whoinnigdate     { width: 6em; }
+col.whoinniglink     { width: 7em; }
+
