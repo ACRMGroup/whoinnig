@@ -1,0 +1,111 @@
+[% INCLUDE "header.tt" %]
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="curvedtable.css" />
+<link rel="stylesheet" href="acrmtable.css" />
+<style type='text/css'>
+   col.sacsdetail {width: 4em;}
+   col.sacspdb {width: 3.5em;}
+   col.sacsfragment {width: 6em;}
+   col.sacsname {width: 15em;}
+   col.sacslight {width: 5em;}
+   col.sacsheavy {width: 4em;}
+   col.sacsmethod {width: 4em;}
+   col.sacsresol {width: 4em;}
+   col.sacsantigen {width: 15em;}
+   col.sacscomplex {width: 5.5em;}
+   col.sacsl1 {width: 2em;}
+   col.sacsl2 {width: 2em;}
+   col.sacsl3 {width: 2em;}
+   col.sacsh1 {width: 2em;}
+   col.sacsh2 {width: 2em;}
+   col.sacsh3 {width: 2em;}
+   col.sacsdate {width: 6em;}
+   .acrmtable td a:link, .acrmtable td a:visited, .acrmtable td a:hover, .acrmtable td a:active {color: white;}
+   .acrmtable td, .acrmtable th {font-size: 8pt;}
+</style>
+
+<script>
+function ShowPopup(url)
+{
+    window.open(url, 'sacspopup', config='height=600,width=600,toolbar=no,menubar=no,resizable=no,titlebar=no,location=no,status=no');
+}
+</script>
+
+
+
+<script src='ajaxgetpage.js'></script>
+[% INCLUDE menu.tt %]
+
+
+<div class='container theme-showcase'>
+  <div class="jumbotron">      
+    <h1>abYbank / SACS</h1>
+    <h2>Antibody data resources</h2>
+    <h3>SACS</h3>
+  </div> <!-- jumbotron -->
+
+  <div class="alert alert-success">
+    <p>SACS (Summary of Antibody Crystal Structures) is a list of antibodies extracted from
+    the PDB with automatically extracted information.</p>
+  </div> <!-- alert -->
+
+  <p>Last updated <b>[% INCLUDE 'lastupdated.tt' %]</b></p>
+
+  <h2>Download Dataset As XML</h2>
+
+  <p><a href='xml/antibodies.xml' class='btn btn-success' download='antibodies.xml'>Download</a></p>
+
+  <h2>View Dataset</h2>
+
+  <script>
+    function SortData() {
+      var select = document.getElementById('sortby');
+      if(select != null)
+      {
+        var sortby = select.value;
+        var url    = './sacssummary.cgi?sort=' + sortby;
+        GetAJAXPage(url);
+      }
+    }
+  </script>
+
+  <div id='ajaxthrobber'>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+        <span class="sr-only">100% Complete</span>
+      </div>
+    </div>
+  </div> <!-- ajaxthrobber -->
+
+  <div id='ajaxcontainer'>
+    <div class='btn-group dropup'>
+      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Sort... <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=pdb');">PDB</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=name');">Name</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=antigen');">Antigen</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=resolution');">Resolution</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=l1');">L1 length</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=l2');">L2 length</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=l3');">L3 length</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=h1');">H1 length</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=h2');">H2 length</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=h3');">H3 length</a><li>
+        <li><a href='#' onClick="GetAJAXPage('./sacssummary.cgi?sort=date');">Date</a><li>
+      </ul>
+    </div>
+
+    <div class="acrmtable acrmtable-success">
+      <div id='ajaxcontent'></div>
+    </div> <!-- acrmtable -->
+  </div> <!-- ajaxcontainer -->
+
+  <script language='javascript' type='text/javascript'>
+    GetAJAXPage('./sacssummary.cgi');
+  </script>
+</div> <!-- /container -->
+
+[% INCLUDE footer.tt %]
