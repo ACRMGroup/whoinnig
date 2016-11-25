@@ -2,53 +2,61 @@
 
 use strict;
 
-my $inRow = 0;
-my $inData = 0;
-my $column = -1;
-my @data   = ();
 
-while(<>)
+my @allData = ParseINNMedNet();
+
+sub ParseINNMedNet
 {
-    chomp;
+    my $inRow = 0;
+    my $inData = 0;
+    my $column = -1;
+    my @allData = ();
+    my @data   = ();
 
-    if(/\<tr.*\>/)
+    while(<>)
     {
-        $inRow  =  1;
-        $column = -1;
-        @data   = ();
-    }
-    elsif(/\<\/tr\>/)
-    {
-        $inRow = 0;
-        CleanData(\@data);
-        PrintData(\@data);
-    }
-    elsif($inRow)
-    {
-        if(/\<td\>/)
+        chomp;
+
+        if(/\<tr.*\>/)
         {
-            $column++;
-            if(/\<td\>(.*)\<\/td\>/)
+            $inRow  =  1;
+            $column = -1;
+            @data   = ();
+        }
+        elsif(/\<\/tr\>/)
+        {
+            $inRow = 0;
+            CleanData(\@data);
+            StoreData(\@allData, \@data);
+        }
+        elsif($inRow)
+        {
+            if(/\<td\>/)
             {
-                $data[$column] = $1;
+                $column++;
+                if(/\<td\>(.*)\<\/td\>/)
+                {
+                    $data[$column] = $1;
+                }
+                else
+                {
+                    $inData = 1;
+                    $data[$column] = '';
+                }
             }
-            else
+            elsif(/\<\/td\>/)
             {
-                $inData = 1;
-                $data[$column] = '';
+                $inData = 0;
             }
-        }
-        elsif(/\<\/td\>/)
-        {
-            $inData = 0;
-        }
-        elsif($inData)
-        {
-            s/^\s+//;
-            s/\s+$//;
-            $data[$column] .= $_;
+            elsif($inData)
+            {
+                s/^\s+//;
+                s/\s+$//;
+                $data[$column] .= $_;
+            }
         }
     }
+    return(@allData); 
 }
 
 
@@ -88,4 +96,12 @@ sub PrintData
 
     printf("%-20s %5d %-35s %4d %4d\n",
            $$aData[0], $$aData[2], $$aData[3], $$aData[4], $$aData[5]);
+}
+
+sub StoreData
+{
+    my($aAllData, $aData) = @_;
+
+    push @$aAllData, {url=>$$aData[0], id=>$$aData[2], name=>$$aData[3],
+                      proposed=>$$aData[4], recommended=>$$aData[5]};
 }
