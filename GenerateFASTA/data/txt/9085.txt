@@ -1,0 +1,92 @@
+figitumumab (100)(62)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLLESGGG LVQPGGSLRL SCTASGFTFS SYAMNWVRQA PGKGLEWVSA   50
+
+ISGSGGTTFY ADSVKGRFTI SRDNSRTTLY LQMNSLRAED TAVYYCAKDL  100
+
+GWSDSYYYYY GMDVWGQGTT VTVSSASTKG PSVFPLAPCS RSTSESTAAL  150
+
+GCLVKDYFPE PVTVSWNSGA LTSGVHTFPA VLQSSGLYSL SSVVTVPSSN  200
+
+FGTQTYTCNV DHKPSNTKVD KTVERKCCVE CPPCPAPPVA GPSVFLFPPK  250
+
+PKDTLMISRT PEVTCVVVDV SHEDPEVQFN WYVDGVEVHN AKTKPREEQF  300
+
+NSTFRVVSVL TVVHQDWLNG KEYKCKVSNK GLPAPIEKTI SKTKGQPREP  350
+
+QVYTLPPSRE EMTKNQVSLT CLVKGFYPSD IAVEWESNGQ PENNYKTTPP  400
+
+MLDSDGSFFL YSKLTVDKSR WQQGNVFSCS VMHEALHNHY TQKSLSLSPG  450
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIQMTQFPSS LSASVGDRVT ITCRASQGIR NDLGWYQQKP GKAPKRLIYA   50
+
+ASRLHRGVPS RFSGSGSGTE FTLTISSLQP EDFATYYCLQ HNSYPCSFGQ  100
+
+GTKLEIKRTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV  150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG  200
+
+LSSPVTKSFN RGEC                                         214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	152-208	265-325	371-429
+
+	22??-96??	152??-208??	265??-325??	371??-429??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	139-214?	139??-214???
+
+
+
+Inter-H-H	227-227??	228-228??	231-231??	234-234??
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+301, 301??
+
+Molecular formula	C6450H9924N1732O2018S54 
+
+Description
+
+immunoglobulin G2-kappa, anti-[Homo sapiens insulin-like growth factor I
+receptor (IGF-1R, CD221)], Homo sapiens monoclonal antibody; 
+
+gamma2 heavy chain (1-450) [Homo sapiens VH (IGHV3-23*01 (93.90%)
+-(IGHD)-IGHJ6*01) [8.8.18] (1-125) -IGHG2*01, CH3 K130>del (126-450)],
+(139-214?)-disulfide with kappa light chain (1?-214?) [Homo sapiens
+V-KAPPA (IGKV1-17*01 (95.80%) -IGKJ2*04) [6.3.9] (1?-107?) -IGKC*01]
+(108?-214?); (227-227??:228-228??:231-231??:234-234??)-tetradisulfide
+dimer 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9085
+
+December 2008
+
+Page 1/1
+
+		
+

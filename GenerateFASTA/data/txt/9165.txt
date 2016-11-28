@@ -1,0 +1,114 @@
+lebrikizumab (101)							9165
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVTLRESGPA LVKPTQTLTL TCTVSGFSLS AYSVNWIRQP PGKALEWLAM  50
+
+IWGDGKIVYN SALKSRLTIS KDTSKNQVVL TMTNMDPVDT ATYYCAGDGY 100
+
+YPYAMDNWGQ GSLVTVSSAS TKGPSVFPLA PCSRSTSEST AALGCLVKDY 150
+
+FPEPVTVSWN SGALTSGVHT FPAVLQSSGL YSLSSVVTVP SSSLGTKTYT 200
+
+CNVDHKPSNT KVDKRVESKY GPPCPPCPAP EFLGGPSVFL FPPKPKDTLM 250
+
+ISRTPEVTCV VVDVSQEDPE VQFNWYVDGV EVHNAKTKPR EEQFNSTYRV 300
+
+VSVLTVLHQD WLNGKEYKCK VSNKGLPSSI EKTISKAKGQ PREPQVYTLP 350
+
+PSQEEMTKNQ VSLTCLVKGF YPSDIAVEWE SNGQPENNYK TTPPVLDSDG 400
+
+SFFLYSRLTV DKSRWQEGNV FSCSVMHEAL HNHYTQKSLS LSLGK      445
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIVMTQSPDS LSVSLGERAT INCRASKSVD SYGNSFMHWY QQKPGQPPKL  50
+
+LIYLASNLES GVPDRFSGSG SGTDFTLTIS SLQAEDVAVY YCQQNNEDPR 100
+
+TFGGGTKVEI KRTVAAPSVF IFPPSDEQLK SGTASVVCLL NNFYPREAKV 150
+
+QWKVDNALQS GNSQESVTEQ DSKDSTYSLS STLTLSKADY EKHKVYACEV 200
+
+THQGLSSPVT KSFNRGEC                                    218
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-95	145-201	259-319	365-423
+
+	22??-95??	145??-201??	259??-319??	365??-423??
+
+Intra-L	23?-92?	138?-198?
+
+
+
+	23???-92???	138???-198???
+
+
+
+Inter-H-L	132-218?	132??-218???
+
+
+
+Inter-H-H	224-224??	227-227??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+295, 295??
+
+CAS		953400-68-5
+
+Description
+
+immunoglobulin G4-kappa, anti-[Homo sapiens interleukin 13 (IL13,
+IL-13)], humanized monoclonal antibody;
+
+gamma4 heavy chain [humanized VH (Homo sapiens IGHV2-70*01 (82.80%)
+-(IGHD)-IGHJ6*01) [8.7.12] (1-118) -Homo sapiens IGHG4*01 hinge S10>P
+(119-445)], (132-218?)-disulfide with kappa light chain (1'-218')
+[humanized V-KAPPA (Homo sapiens IGKV4-1*01 (79.20%) -IGKJ4*01) [10.3.9]
+(1?-111?) -Homo sapiens IGKC*01 (112?-218?)];
+(224-224":227-227")-bisdisulfide dimer 
+
+immunoglobuline G4-kappa, anti-[Homo sapiens interleukine 13 (IL13,
+IL-13)], anticorps monoclonal humanisy; 
+
+chaone lourde gamma4 [VH humanisy (Homo sapiens IGHV2-70*01 (82.80%)
+-(IGHD)-IGHJ6*01) [8.7.12] (1-118) -Homo sapiens IGHG4*01 charniire
+S10>P (119-445)], (132-218?)-disulfure avec la chaone lygire kappa
+(1'-218') [V-KAPPA humanisy (Homo sapiens IGKV4-1*01 (79.20%) -IGKJ4*01)
+[10.3.9] (1?-111?) -Homo sapiens IGKC*01 (112?-218?)]; dimire
+(224-224":227-227")-bisdisulfure 
+
+inmunoglobulina G4-kappa, anti-[interleukina 13 de Homo sapiens (IL13,
+IL-13)], anticuerpo monoclonal humanizado; 
+
+cadena pesada gamma4 [VH humanizada (Homo sapiens IGHV2-70*01 (82.80%)
+-(IGHD)-IGHJ6*01) [8.7.12] (1-118) -Homo sapiens IGHG4*01 bisagra S10>P
+(119-445)], (132-218?)-disulfuro con la cadena ligera kappa (1'-218')
+[V-KAPPA humanizada (Homo sapiens IGKV4-1*01 (79.20%) -IGKJ4*01)
+[10.3.9] (1?-111?) -Homo sapiens IGKC*01 (112?-218?)]; dnmero
+(224-224":227-227")-bisdisulfuro 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/07/2009
+
+p. 1/1
+
+
+
+		
+

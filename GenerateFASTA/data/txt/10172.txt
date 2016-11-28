@@ -1,0 +1,91 @@
+10172
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QMQLVESGGG VVQPGRSLRL SCAASGFTFR TYGMHWVRQA PGKGLEWVAV  50
+
+IWYDGSNKHY ADSVKGRFTI TRDNSKNTLN LQMNSLRAED TAVYYCARAP 100
+
+QWELVHEAFD IWGQGTMVTV SSASTKGPSV FPLAPCSRST SESTAALGCL 150
+
+VKDYFPEPVT VSWNSGALTS GVHTFPAVLQ SSGLYSLSSV VTVPSSNFGT 200
+
+QTYTCNVDHK PSNTKVDKTV ERKCCVECPP CPAPPVAGPS VFLFPPKPKD 250
+
+TLMISRTPEV TCVVVDVSHE DPEVQFNWYV DGVEVHNAKT KPREEQFNST 300
+
+FRVVSVLTVV HQDWLNGKEY KCKVSNKGLP APIEKTISKT KGQPREPQVY 350
+
+TLPPSREEMT KNQVSLTCLV KGFYPSDIAV EWESNGQPEN NYKTTPPMLD 400
+
+SDGSFFLYSK LTVDKSRWQQ GNVFSCSVMH EALHNHYTQK SLSLSPGK   448
+
+Light chain / Chaone lygire / Cadena ligera
+
+SYVLTQPPSV SVAPGQTARI TCGGNNLGSK SVHWYQQKPG QAPVLVVYDD  50
+
+SDRPSWIPER FSGSNSGNTA TLTISRGEAG DEADYYCQVW DSSSDHVVFG 100
+
+GGTKLTVLGQ PKAAPSVTLF PPSSEELQAN KATLVCLISD FYPGAVTVAW 150
+
+KADSSPVKAG VETTTPSKQS NNKYAASSYL SLTPEQWKSH RSYSCQVTHE 200
+
+GSTVEKTVAP TECS                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H (C23-C104)	22-96	149-205	262-322	368-426
+
+	22??-96??	149??-205??	262??-322??	368??-426??
+
+Intra-L (C23-C104)	22?-87?	136?-195?
+
+
+
+	22???-87???	136???-195???
+
+
+
+Inter-H-L (CH1 10-CL 126)	136-213?	136??-213???
+
+
+
+Inter-H-H (h 4, h 5, h 8, h 11)	224-224??	225-225??	228-228??	231-231??
+
+*In addition to the isoform A, isoform A/B characterized by an inter-H-H
+(h 4 - CH1 10) 224-136?? and an inter-H-L (h 4- CL 126) 224??-213???,
+instead of the inter-H-H (h 4 - h 4) 224-224?? and of one of the two
+inter-H-L (CH1 10-CL 126) 136??-213???.
+
+*En plus de l'isoforme A, isoforme A/B caractyrisye par un inter-H-H (h
+4 - CH1 10) 224-136?? et un inter-H-L (h 4- CL 126) 224??-213???, au
+lieu de l'inter-H-H (h 4 - h 4) 224-224?? et de l'un des deux inter-H-L
+(CH1 10-CL 126) 136??-213???.
+
+* adembs de la isoforma A, isoforma A/B caracterizado por un inter-H-H
+(h 4 - CH1 10) 224-136?? y un inter-H-L (h 4- CL 126) 224??-213???, en
+lugar del inter-H-H (h 4 - h 4) 224-224?? y uno de los dos inter-H-L
+(CH1 10-CL 126) 136??-213???.
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+H CH2 N84.4:
+
+298, 298??		
+
+Fucosylated complex bi-antennary CHO-type glycans / glycanes de type CHO
+bi-antennaires complexes fucosylys / glicanos de tipo CHO biantenarios
+complejos fucosilados
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	07/2015
+
+		
+

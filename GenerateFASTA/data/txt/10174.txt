@@ -1,0 +1,82 @@
+10174
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLVQSGSE LKKPGASVKV SCKASGYTFT NYGMNWVRQA PGQGLEWMGW  50 
+
+INTYTGEPTY ADDFTGRFVF SLDTSVSTAY LQISSLKAED TAVYYCARNP 100 
+
+INYYGINYEG YVMDYWGQGT LVTVSSASTK GPSVFPLAPS SKSTSGGTAA 150 
+
+LGCLVKDYFP EPVTVSWNSG ALTSGVHTFP AVLQSSGLYS LSSVVTVPSS 200 
+
+SLGTQTYICN VNHKPSNTKV DKKVEPKSCD KTHTCPPCPA PELAGAPSVF 250 
+
+LFPPKPKDTL MISRTPEVTC VVVDVSHEDP EVKFNWYVDG VEVHNAKTKP 300 
+
+REEQYNSTYR VVSVLTVLHQ DWLNGKEYKC KVSNKALPAP IEKTISKAKG 350 
+
+QPREPQVYTL PPSRDELTKN QVSLTCLVKG FYPSDIAVEW ESNGQPENNY 400 
+
+KTTPPVLDSD GSFFLYSKLT VDKSRWQQGN VFSCSVMHEA LHNHYTQKSL 450 
+
+SLSPGK                                                 456
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIVMTQSPDS LAVSLGERAT INCKSSHSVL YSSNQKNYLA WYQQKPGQPP  50 
+
+KLLIYWASTR ESGVPDRFSG SGSGTDFTLT ISSLQAEDVA VYYCHQYLSS 100 
+
+LTFGQGTKLE IKRTVAAPSV FIFPPSDEQL KSGTASVVCL LNNFYPREAK 150 
+
+VQWKVDNALQ SGNSQESVTE QDSKDSTYSL SSTLTLSKAD YEKHKVYACE 200 
+
+VTHQGLSSPV TKSFNRGEC                                   219
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H (C23-C104)	22-96	153-209	270-330	376-434
+
+	22??-96??	153??-209??	270??-330??	376??-434??
+
+Intra-L (C23-C104)	23?-94?	139?-199?
+
+
+
+	23???-94???	139???-199???
+
+
+
+Inter-H-L (h 5-CL 126)	229-219?	229??-219???
+
+
+
+Inter-H-H (h 11, h 14)	235-235??	238-238??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+H CH2 N84.4:
+
+306, 306??
+
+Fucosylated complex bi-antennary CHO-type glycans / glycanes de type CHO
+bi-antennaires complexes fucosylys / glicanos de tipo CHO biantenarios
+complejos fucosilados
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	12/2015
+
+		
+

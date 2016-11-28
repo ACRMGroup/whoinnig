@@ -1,0 +1,94 @@
+solanezumab (100)(62)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVESGGG LVQPGGSLRL SCAASGFTFS RYSMSWVRQA PGKGLELVAQ  50
+
+INSVGNSTYY PDTVKGRFTI SRDNAKNTLY LQMNSLRAED TAVYYCASGD 100
+
+YWGQGTLVTV SSASTKGPSV FPLAPSSKST SGGTAALGCL VKDYFPEPVT 150
+
+VSWNSGALTS GVHTFPAVLQ SSGLYSLSSV VTVPSSSLGT QTYICNVNHK 200
+
+PSNTKVDKKV EPKSCDKTHT CPPCPAPELL GGPSVFLFPP KPKDTLMISR 250
+
+TPEVTCVVVD VSHEDPEVKF NWYVDGVEVH NAKTKPREEQ YNSTYRVVSV 300
+
+LTVLHQDWLN GKEYKCKVSN KALPAPIEKT ISKAKGQPRE PQVYTLPPSR 350
+
+DELTKNQVSL TCLVKGFYPS DIAVEWESNG QPENNYKTTP PVLDSDGSFF 400
+
+LYSKLTVDKS RWQQGNVFSC SVMHEALHNH YTQKSLSLSP G          441
+
+Light chain / Chaone lygire / Cadena ligera
+
+DVVMTQSPLS LPVTLGQPAS ISCRSSQSLI YSDGNAYLHW FLQKPGQSPR  50
+
+LLIYKVSNRF SGVPDRFSGS GSGTDFTLKI SRVEAEDVGV YYCSQSTHVP 100
+
+WTFGQGTKVE IKRTVAAPSV FIFPPSDEQL KSGTASVVCL LNNFYPREAK 150
+
+VQWKVDNALQ SGNSQESVTE QDSKDSTYSL SSTLTLSKAD YEKHKVYACE 200
+
+VTHQGLSSPV TKSFNRGEC                                   219
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	139-195	256-316	362-420
+
+	22??-96??	139??-195??	256??-316??	362??-420??
+
+Intra-L	23?-93?	139?-199?
+
+
+
+	23???-93???	139???-199???
+
+
+
+Inter-H-L	215-219?	215??-219???
+
+
+
+Inter-H-H	221-221??	224-224??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+292, 292??
+
+Molecular formula	C6396H9922N1712O1996S42
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens amyloid-beta (Abeta) peptide
+soluble monomer], humanized monoclonal antibody;
+
+gamma1 heavy chain [humanized VH (Homo sapiens IGHV3-23*04 (87.60%)
+-(IGHD)-IGHJ4*01) [8.8.5] (1-112) -Homo sapiens IGHG1*01, CH3 K130>del
+(113-441)], (215-219?)-disulfide with kappa light chain (1'-219')
+[humanized V-KAPPA (Homo sapiens IGKV2-30*01 (90.00%) -IGKJ1*01)
+[11.3.9] (1?-112?) -Homo sapiens IGKC*01 (113?-219?)];
+(221-221":224-224")-bisdisulfide dimer 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9097
+
+December 2008
+
+Page 1/1
+
+		
+

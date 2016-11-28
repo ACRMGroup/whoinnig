@@ -1,0 +1,192 @@
+gantenerumab (97)(59)								8894
+
+Structure	
+
+Ig ?1- heavy chain / Chaine lourde Ig ?1 / Cadena pesada Ig ?1
+
+qvelvesggg lvqpggslrl scaasgftfs syamswvrqa pgkglewvsa	50
+
+inasgtrtyy adsvkgrfti srdnskntly lqmnslraed tavyycargk	100
+
+gnthkpygyv ryfdvwgqgt lvtvssastk gpsvfplaps skstsggtaa	150
+
+lgclvkdyfp epvtvswnsg altsgvhtfp avlqssglys lssvvtvpss	200
+
+slgtqtyicn vnhkpsntkv dkkvepkscd kthtcppcpa pellggpsvf	250
+
+lfppkpkdtl misrtpevtc vvvdvshedp evkfnwyvdg vevhnaktkp	300 
+
+reeqynstyr vvsvltvlhq dwlngkeykc kvsnkalpap iektiskakg	350
+
+qprepqvytl ppsrdeltkn qvsltclvkg fypsdiavew esngqpenny	400
+
+kttppvldsd gsfflysklt vdksrwqqgn vfscsvmhea lhnhytqksl	450
+
+slspgk								456
+
+? light chain / Chaine legere Ig ?- / Cadena ligera Ig ?
+
+divltqspat lslspgerat lscrasqsvs ssylawyqqk pgqaprlliy		50
+
+gassratgvp arfsgsgsgt dftltissle pedfatyycl qiynmpitfg 	100
+
+qgtkveikrt vaapsvfifp psdeqlksgt asvvcllnnf ypreakvqwk 	150
+
+vdnalqsgns qesvteqdsk dstyslsstl tlskadyekh kvyacevthq		200
+
+glsspvtksf nrgec								215
+
+The position of cysteine (C) residues that form disulphide bridges and
+asparagine residues that are N-glycosylated are highlighted in bold
+(red).  
+
+Molecular formula	not indicated (by applicant) 
+
+Description
+
+% hB
+
+
+
+G
+
+'
+
+''
+
+*
+
+	
+
+
+
+!
+
+"
+
+?
+
+(
+
+,
+
+-
+
+7
+
+8
+
+B
+
+C
+
+F
+
+G
+
+Q
+
+R
+
+\
+
+]
+
+g
+
+4g
+
+h
+
+k
+
+l
+
+r
+
+s
+
+}
+
+~
+
+?
+
+'
+
+?
+
+?
+
+``
+
+''
+
+*
+
+ 
+
+*
+
+,
+
+@
+
+B
+
+V
+
+Z
+
+?
+
+b
+
+v
+
+x
+
+?
+
+?
+
+?
+
+r
+
+yo
+
+?
+
+O
+
+T
+
+SH
+
+'
+
+o
+
+r
+
+b
+
+'
+
+hCHe
+
+?42 and A?40) human monoclonal antibody; gamma1 heavy chain (Homo
+sapiens VH-IGHG1) (229-215')-disulfide with kappa light chain (Homo
+sapiens V-KAPPA-IGKC); (235-235'':238-238'')-bisdisulfide dimer.
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+02/05/2007
+
+		
+

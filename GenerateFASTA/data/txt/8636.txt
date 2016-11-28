@@ -1,0 +1,172 @@
+ocrelizumab (94)(56)								8636
+
+Structure	
+
+(1-Chain / Chaone (1 / Cadena (1
+
+EVQLVESGGG	LVQPGGSLRL	SCAASGYTFT	SYNMHWVRQA	PGKGLEWVGA	50
+
+IYPGNGDTSY	NQKFKGRFTI	SVDKSKNTLY	LQMNSLRAED	TAVYYCARVV	100
+
+YYSNSYWYFD	VWGQGTLVTV	SSASTKGPSV	FPLAPSSKST	SGGTAALGCL	150
+
+VKDYFPEPVT	VSWNSGALTS	GVHTFPAVLQ	SSGLYSLSSV	VTVPSSSLGT	200
+
+QTYICNVNHK	PSNTKVDKKV	EPKSCDKTHT	CPPCPAPELL	GGPSVFLFPP	250
+
+KPKDTLMISR	TPEVTCVVVD	VSHEDPEVKF	NWYVDGVEVH	NAKTKPREEQ	300
+
+YNSTYRVVSV	LTVLHQDWLN	GKEYKCKVSN	KALPAPIEKT	ISKAKGQPRE	350
+
+PQVYTLPPSR	EEMTKNQVSL	TCLVKGFYPS	DIAVEWESNG	QPENNYKTTP	400
+
+PVLDSDGSFF	LYSKLTVDKS	RWQQGNVFSC	SVMHEALHNH	YTQKSLSLSP	450
+
+GK
+
+
+
+	452
+
+(-Chain / Chaone ( / Cadena (
+
+DIQMTQSPSS	LSASVGDRVT	ITCRASSSVS	YMHWYQQKPG	KAPKPLIYAP	50?
+
+SNLASGVPSR	FSGSGSGTDF	TLTISSLQPE	DFATYYCQQW	SFNPPTFGQG	100?
+
+TKVEIKRTVA	APSVFIFPPS	DEQLKSGTAS	VVCLLNNFYP	REAKVQWKVD	150?
+
+NALQSGNSQE	SVTEQDSKDS	TYSLSSTLTL	SKADYEKHKV	YACEVTHQGL	200?
+
+SSPVTKSFNR	GEC
+
+
+
+213?
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+22-96	22??-96??	23?-87?	23???-87???	133?-193?	133???-193???	149-205
+149??-205??
+
+213?-225	213???-225??	231-231??	234-234??	266-326	266??-326??	372-430
+372??-430??
+
+
+
+Molecular formula	C6494H9978N1718O2014S46
+
+Description
+
+% hB
+
+o/oo
+
+$
+
+	
+
+
+
+C
+
+F
+
+G
+
+H
+
+o/oo
+
+$
+
+o/oo
+
+$
+
+o/oo
+
+$
+
+$
+
+
+
+o/oo
+
+$
+
+
+
+"
+
+-
+
+8
+
+C
+
+H
+
+H
+
+I
+
+?
+
+?
+
+''
+
+...
+
+?
+
+"
+
+?
+
+?
+
+?
+
+yu
+
+/?
+
+...
+
+?
+
+o/oo
+
+$
+
+?
+
+`
+
+*
+
+-
+
+ - 
+
+?
+
+=
+
+??1/2??1-chain), disulfide with human-mouse monoclonal 2H7 ?-chain,
+dimer
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+
+
+		
+

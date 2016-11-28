@@ -1,0 +1,117 @@
+itolizumab (103)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVESGGG LVKPGGSLKL SCAASGFKFS RYAMSWVRQA PGKRLEWVAT  50
+
+ISSGGSYIYY PDSVKGRFTI SRDNVKNTLY LQMSSLRSED TAMYYCARRD 100
+
+YDLDYFDSWG QGTLVTVSSA STKGPSVFPL APSSKSTSGG TAALGCLVKD 150
+
+YFPEPVTVSW NSGALTSGVH TFPAVLQSSG LYSLSSVVTV PSSSLGTQTY 200
+
+ICNVNHKPSN TKVDKKVEPK SCDKTHTCPP CPAPELLGGP SVFLFPPKPK 250
+
+DTLMISRTPE VTCVVVDVSH EDPEVKFNWY VDGVEVHNAK TKPREEQYNS 300
+
+TYRVVSVLTV LHQDWLNGKE YKCKVSNKAL PAPIEKTISK AKGQPREPQV 350
+
+YTLPPSRDEL TKNQVSLTCL VKGFYPSDIA VEWESNGQPE NNYKTTPPVL 400
+
+DSDGSFFLYS KLTVDKSRWQ QGNVFSCSVM HEALHNHYTQ KSLSLSPGK  449
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIQMTQSPSS LSASVGDRVT ITCKASRDIR SYLTWYQQKP GKAPKTLIYY  50
+
+ATSLADGVPS RFSGSGSGQD YSLTISSLES DDTATYYCLQ HGESPFTLGS 100
+
+GTKLEIKRTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV 150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG 200
+
+LSSPVTKSFN RGEC                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	146-202	263-323	369-427
+
+	22??-96??	146??-202??	263??-323??	369??-427??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	222-214?	222??-214???
+
+
+
+Inter-H-H	228-228??	231-231??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+299, 299??
+
+CAS		1116433-11-4
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens CD6 (Tp120, T12)], humanized
+monoclonal antibody;
+
+gamma1 heavy chain (1-449) [humanized VH (Homo sapiens IGHV3-21*08
+(83.70%) -(IGHD)-IGHJ5*01) [8.8.12] (1-119) -Homo sapiens IGHG1*01
+(120-449)], (222-214?)-disulfide with kappa light chain (1'-214')
+[humanized V-KAPPA (Homo sapiens IGKV1-17*01 (76.80%) -IGKJ2*01 F118>L,
+Q120>S) [6.3.9] (1?-107?) -Homo sapiens IGKC*01 (108?-214?)];
+(228-228":231-231")-bisdisulfide dimer 
+
+immunoglobuline G1-kappa, anti-[Homo sapiens CD6 (Tp120, T12)],
+anticorps monoclonal humanisy; 
+
+chaone lourde gamma1 (1-449) [VH humanisy (Homo sapiens IGHV3-21*08
+(83.70%) -(IGHD)-IGHJ5*01) [8.8.12] (1-119) -Homo sapiens IGHG1*01
+(120-449)], (222-214?)-disulfure avec la chaone lygire kappa (1'-214')
+[V-KAPPA humanisy (Homo sapiens IGKV1-17*01 (76.80%) -IGKJ2*01 F118>L,
+Q120>S) [6.3.9] (1?-107?) -Homo sapiens IGKC*01 (108?-214?)]; dimire
+(228-228":231-231")- bisdisulfure 
+
+inmunoglobulina G1-kappa, anti-[Homo sapiens CD6 (Tp120, T12)],
+anticuerpo monoclonal humanizado;
+
+cadena pesada gamma1 (1-449) [VH humanizado (Homo sapiens IGHV3-21*08
+(83.70%) -(IGHD)-IGHJ5*01) [8.8.12] (1-119) -Homo sapiens IGHG1*01
+(120-449)], (222-214?)-disulfuro con la cadena
+
+ligera kappa (1?-214?) [V-KAPPA humanizado (Homo sapiens IGKV1-17*01
+(76.80%) -IGKJ2*01 F118>L, Q120>S) [6.3.9] (1?-107?) -Homo sapiens
+IGKC*01 (108?-214?)]; dnmero (228-228":231-231")-
+
+bisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+30/06/2010
+
+9321
+
+
+
+		
+

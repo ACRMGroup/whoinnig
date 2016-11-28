@@ -1,0 +1,35 @@
+caplacizumab (106)
+
+Structure	 
+
+EVQLVESGGG LVQPGGSLRL SCAASGRTFS YNPMGWFRQA PGKGRELVAA  50
+
+ISRTGGSTYY PDSVEGRFTI SRDNAKRMVY LQMNSLRAED TAVYYCAAAG 100
+
+VRAEDGRVRT LPSEYTFWGQ GTQVTVSSAA AEVQLVESGG GLVQPGGSLR 150
+
+LSCAASGRTF SYNPMGWFRQ APGKGRELVA AISRTGGSTY YPDSVEGRFT 200
+
+ISRDNAKRMV YLQMNSLRAE DTAVYYCAAA GVRAEDGRVR TLPSEYTFWG 250
+
+QGTQVTVSS                                              259
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-chain	22-96	153-227
+
+
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9511
+
+15/01/2012
+
+		
+

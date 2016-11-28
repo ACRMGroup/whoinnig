@@ -1,0 +1,95 @@
+cixutumumab (100)(62)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVQSGAE VKKPGSSVKV SCKASGGTFS SYAISWVRQA PGQGLEWMGG  50
+
+IIPIFGTANY AQKFQGRVTI TADKSTSTAY MELSSLRSED TAVYYCARAP 100
+
+LRFLEWSTQD HYYYYYMDVW GKGTTVTVSS ASTKGPSVFP LAPSSKSTSG 150
+
+GTAALGCLVK DYFPEPVTVS WNSGALTSGV HTFPAVLQSS GLYSLSSVVT 200
+
+VPSSSLGTQT YICNVNHKPS NTKVDKKVEP KSCDKTHTCP PCPAPELLGG 250
+
+PSVFLFPPKP KDTLMISRTP EVTCVVVDVS HEDPEVKFNW YVDGVEVHNA 300
+
+KTKPREEQYN STYRVVSVLT VLHQDWLNGK EYKCKVSNKA LPAPIEKTIS 350
+
+KAKGQPREPQ VYTLPPSREE MTKNQVSLTC LVKGFYPSDI AVEWESNGQP 400
+
+ENNYKTTPPV LDSDGSFFLY SKLTVDKSRW QQGNVFSCSV MHEALHNHYT 450
+
+QKSLSLSPGK                                             460
+
+Light chain / Chaone lygire / Cadena ligera
+
+SSELTQDPAV SVALGQTVRI TCQGDSLRSY YATWYQQKPG QAPILVIYGE  50
+
+NKRPSGIPDR FSGSSSGNTA SLTITGAQAE DEADYYCKSR DGSGQHLVFG 100
+
+GGTKLTVLGQ PKAAPSVTLF PPSSEELQAN KATLVCLISD FYPGAVTVAW 150
+
+KADSSPVKAG VETTTPSKQS NNKYAASSYL SLTPEQWKSH RSYSCQVTHE 200
+
+GSTVEKTVAP AECS                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	157-213	274-334	380-438
+
+	22??-96??	157??-213??	274??-334??	380??-438??
+
+Intra-L	22?-87?	136?-195?
+
+
+
+	22???-87???	136???-195???
+
+
+
+Inter-H-L	233-213?	233??-213???
+
+
+
+Inter-H-H	239-239??	242-242??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+310, 310??
+
+Molecular formula	C6500H10052N1724O2036S44
+
+Description
+
+immunoglobulin G1-lambda, anti-[Homo sapiens insulin-like growth factor
+I receptor (IGF-1R, CD221)], Homo sapiens monoclonal antibody;
+
+gamma1 heavy chain (1-460) [Homo sapiens VH (IGHV1-69*06 (99.00%)
+-(IGHD)-IGHJ6*01) [8.8.23] (1-130) -IGHG1*03, R120>K (131-460)],
+(233-213?)-disulfide with lambda light chain (1?-214?) [Homo sapiens
+V-LAMBDA (IGLV3-19*01 (92.70%) -IGLJ2*01) [6.3.11] (1?-108?) -IGLC2*01,
+T124>A (109?-214?)]; (239-239??:242-242??)-bisdisulfide dimer 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9099
+
+December 2008
+
+Page 1/1
+
+		
+

@@ -1,0 +1,88 @@
+9932
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLVQSGAE VKKPGASVKV SCKASGYTFT DYYMHWVRQA PGQGLEWMGR  50
+
+VNPNRRGTTY NQKFEGRVTM TTDTSTSTAY MELRSLRSDD TAVYYCARAN 100
+
+WLDYWGQGTT VTVSSASTKG PSVFPLAPCS RSTSESTAAL GCLVKDYFPE 150
+
+PVTVSWNSGA LTSGVHTFPA VLQSSGLYSL SSVVTVPSSS LGTKTYTCNV 200
+
+DHKPSNTKVD KRVESKYGPP CPPCPAPEAA GGPSVFLFPP KPKDTLMISR 250
+
+TPEVTCVVVD VSQEDPEVQF NWYVDGVEVH NAKTKPREEQ FNSTYRVVSV 300
+
+LTVLHQDWLN GKEYKCKVSN KGLPSSIEKT ISKAKGQPRE PQVYTLPPSQ 350
+
+EEMTKNQVSL TCLVKGFYPS DIAVEWESNG QPENNYKTTP PVLDSDGSFF 400
+
+LYSRLTVDKS RWQEGNVFSC SVMHEALHNH YTQKSLSLSL G          441
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIQMTQSPSS LSASVGDRVT ITCSVSSSVS SIYLHWYQQK PGKAPKLLIY  50
+
+STSNLASGVP SRFSGSGSGT DFTLTISSLQ PEDFATYYCQ VYSGYPLTFG 100
+
+GGTKVEIKRT VAAPSVFIFP PSDEQLKSGT ASVVCLLNNF YPREAKVQWK 150
+
+VDNALQSGNS QESVTEQDSK DSTYSLSSTL TLSKADYEKH KVYACEVTHQ 200
+
+GLSSPVTKSF NRGEC                                       215
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H (C23-C104)	22-96	142-198	256-316	362-420
+
+	22??-96??	142??-198??	256??-316??	362??-420??
+
+Intra-L (C23-C104)	23?-89?	135?-195?
+
+
+
+	23???-89???	135???-195???
+
+
+
+Inter-H-L (CH1 10-CL 126)	129-215?	129??-215???
+
+
+
+Inter-H-H (h 8, h 11)	221-221??	224-224??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+H CH2 N84.4:
+
+292, 292??
+
+Other post-translational modifications
+
+Autres modifications post-traductionnelles
+
+Otras modificaciones post-traduccionales
+
+Lacking H chain C-terminal lysine (CHS K2>del)
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+06/2014
+
+
+
+		
+

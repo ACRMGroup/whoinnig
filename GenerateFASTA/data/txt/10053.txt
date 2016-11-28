@@ -1,0 +1,40 @@
+10053 
+
+Structure	 
+
+MEIVMTQSPS TLSASVGDRV IITCQASEII HSWLAWYQQK PGKAPKLLIY  50
+
+LASTLASGVP SRFSGSGSGA EFTLTISSLQ PDDFATYYCQ NVYLASTNGA 100
+
+NFGQGTKLTV LGGGGGSGGG GSGGGGSGGG GSEVQLVESG GGLVQPGGSL 150
+
+RLSCTASGFS LTDYYYMTWV RQAPGKGLEW VGFIDPDDDP YYATWAKGRF 200
+
+TISRDNSKNT LYLQMNSLRA EDTAVYYCAG GDHNSGWGLD IWGQGTLVTV 250
+
+SS                                                     252
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-chain C23 C104	24-89	154-228
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+None
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+12/2014
+
+
+
+		
+

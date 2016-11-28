@@ -1,0 +1,113 @@
+rilotumumab (101)							9123
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLQESGPG LVKPSETLSL TCTVSGGSIS IYYWSWIRQP PGKGLEWIGY  50
+
+VYYSGSTNYN PSLKSRVTIS VDTSKNQFSL KLNSVTAADT AVYYCARGGY 100
+
+DFWSGYFDYW GQGTLVTVSS ASTKGPSVFP LAPCSRSTSE STAALGCLVK 150
+
+DYFPEPVTVS WNSGALTSGV HTFPAVLQSS GLYSLSSVVT VPSSNFGTQT 200
+
+YTCNVDHKPS NTKVDKTVER KCCVECPPCP APPVAGPSVF LFPPKPKDTL 250
+
+MISRTPEVTC VVVDVSHEDP EVQFNWYVDG VEVHNAKTKP REEQFNSTFR 300
+
+VVSVLTVVHQ DWLNGKEYKC KVSNKGLPAP IEKTISKTKG QPREPQVYTL 350
+
+PPSREEMTKN QVSLTCLVKG FYPSDIAVEW ESNGQPENNY KTTPPMLDSD 400
+
+GSFFLYSKLT VDKSRWQQGN VFSCSVMHEA LHNHYTQKSL  SLSPGK     446
+
+Light chain / Chaone lygire / Cadena ligera
+
+EIVMTQSPAT LSVSPGERAT LSCRASQSVD SNLAWYRQKP GQAPRLLIYG  50
+
+ASTRATGIPA RFSGSGSGTE FTLTISSLQS EDFAVYYCQQ YINWPPITFG 100
+
+QGTRLEIKRT VAAPSVFIFP PSDEQLKSGT ASVVCLLNNF YPREAKVQWK 150
+
+VDNALQSGNS QESVTEQDSK DSTYSLSSTL TLSKADYEKH KVYACEVTHQ 200
+
+GLSSPVTKSF NRGEC                                       215
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-95	147-203	260-320	366-424
+
+	22??-95??	147??-203??	260??-320??	366??-424??
+
+Intra-L	23?-88?	135?-195?
+
+
+
+	23???-88???	135???-195???
+
+
+
+Inter-H-L	134-215?	134??-215???
+
+
+
+Inter-H-H	222-222??	223-223??	226-226??	229-229??
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+296, 296??
+
+CAS		872514-65-3
+
+Description
+
+immunoglobulin G2-kappa, anti-[Homo sapiens hepatocyte growth factor
+(HGF, scatter factor, SF, hepatopoeitin A)], Homo sapiens monoclonal
+antibody; 
+
+gamma2 heavy chain (1-446) [Homo sapiens VH (IGHV4-59*01 (96.90%)
+-(IGHD)-IGHJ4*01) [8.7.14] (1-120) -IGHG2*01 (121-446)],
+(134-215?)-disulfide with kappa light chain (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-15*01 (96.80%) -IGKJ5*01) [6.3.10] (1?-108?) -IGKC*01
+(109?-215?)]; (222-222??:223-223??:226-226??:229-229??)-tetradisulfide
+dimer 
+
+immunoglobuline G2-kappa, anti-[Homo sapiens facteur de croissance de
+l'hypatocyte (HGF, facteur dispersant, SF, hypatopopytine A)], Homo
+sapiens anticorps monoclonal; 
+
+chaone lourde gamma2 (1-446) [Homo sapiens VH (IGHV4-59*01 (96.90%)
+-(IGHD)-IGHJ4*01) [8.7.14] (1-120) -IGHG2*01 (121-446)],
+(134-215?)-disulfure avec la chaone lygire kappa (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-15*01 (96.80%) -IGKJ5*01) [6.3.10] (1?-108?) -IGKC*01
+(109?-215?)]; dimire
+(222-222??:223-223??:226-226??:229-229??)-tytradisulfure 
+
+inmunoglobulina G2-kappa, anti-[factor de crecimiento de hepatocitos de
+Homo sapiens (HGF, factor dispersante, SF, hepatopoyetina A)],
+anticuerpo monoclonal de Homo sapiens ; 
+
+cadena pesada gamma2 (1-446) [Homo sapiens VH (IGHV4-59*01 (96.90%)
+-(IGHD)-IGHJ4*01) [8.7.14] (1-120) -IGHG2*01 (121-446)],
+(134-215?)-disulfuro con la cadena ligera kappa (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-15*01 (96.80%) -IGKJ5*01) [6.3.10] (1?-108?) -IGKC*01
+(109?-215?)]; dnmero
+(222-222??:223-223??:226-226??:229-229??)-tetradisulfuro 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/07/2009
+
+p. 1/1
+
+		
+

@@ -1,0 +1,125 @@
+drozitumab (103)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVQSGGG VERPGGSLRL SCAASGFTFD DYAMSWVRQA PGKGLEWVSG  50
+
+INWQGGSTGY ADSVKGRVTI SRDNAKNSLY LQMNSLRAED TAVYYCAKIL 100
+
+GAGRGWYFDY WGKGTTVTVS SASTKGPSVF PLAPSSKSTS GGTAALGCLV 150
+
+KDYFPEPVTV SWNSGALTSG VHTFPAVLQS SGLYSLSSVV TVPSSSLGTQ 200
+
+TYICNVNHKP SNTKVDKKVE PKSCDKTHTC PPCPAPELLG GPSVFLFPPK 250
+
+PKDTLMISRT PEVTCVVVDV SHEDPEVKFN WYVDGVEVHN AKTKPREEQY 300
+
+NSTYRVVSVL TVLHQDWLNG KEYKCKVSNK ALPAPIEKTI SKAKGQPREP 350
+
+QVYTLPPSRE EMTKNQVSLT CLVKGFYPSD IAVEWESNGQ PENNYKTTPP 400
+
+VLDSDGSFFL YSKLTVDKSR WQQGNVFSCS VMHEALHNHY TQKSLSLSPG 450
+
+K                                                      451
+
+Light chain / Chaone lygire / Cadena ligera
+
+SELTQDPAVS VALGQTVRIT CSGDSLRSYY ASWYQQKPGQ APVLVIYGAN  50
+
+NRPSGIPDRF SGSSSGNTAS LTITGAQAED EADYYCNSAD SSGNHVVFGG 100
+
+GTKLTVLGQP KAAPSVTLFP PSSEELQANK ATLVCLISDF YPGAVTVAWK 150
+
+ADSSPVKAGV ETTTPSKQSN NKYAASSYLS LTPEQWKSHK SYSCQVTHEG 200
+
+STVEKTVAPT ECS                                         213
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	148-204	265-325	371-429
+
+	22??-96??	148??-204??	265??-325??	371??-429??
+
+Intra-L	21?-86?	135?-194?
+
+
+
+	21???-86???	135???-194???
+
+
+
+Inter-H-L	224-212?	224??-212???
+
+
+
+Inter-H-H	230-230??	233-233??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+301, 301??
+
+CAS		912628-39-8 
+
+Description
+
+immunoglobulin G1-lambda, anti-[Homo sapiens TNFRSF10B (tumor necrosis
+factor receptor superfamily member 10B, DR5, death receptor 5, TRAIL-R2,
+TNF-related apoptosis-inducing ligand receptor 2, TR-2, CD262)], Homo
+sapiens monoclonal antibody;
+
+gamma1 heavy chain (1-451) [Homo sapiens VH (IGHV3-20*01 (91.80%)
+-(IGHD)-IGHJ2*01 R120>K, L123>T) [8.8.14] (1-121) -IGHG1*03 CH1 R120>K
+(122-451)], (224-212?)-disulfide with lambda light chain (1?-213?) [Homo
+sapiens V-LAMBDA (IGLV3-19*01 (96.80%) -IGLJ3*01) [6.3.11] (1?-107?)
+-IGLC3*03 (108?-213?)]; (230-230??:233-233??)-bisdisulfide dimer
+
+immunoglobuline G1-lambda, anti-[Homo sapiens TNFRSF10B (membre 10B de
+la superfamille des rycepteurs du facteur de nycrose tumorale, DR5,
+death receptor 5, TRAIL-R2, rycepteur 2 du
+
+ligand inducteur d?une apoptose liye au TNF, TR-2, CD262)], Homo sapiens
+anticorps monoclonal;
+
+chaone lourde gamma1 (1-451) [Homo sapiens VH (IGHV3-20*01 (91.80%)
+-(IGHD)-IGHJ2*01 R120>K, L123>T) [8.8.14] (1-121) - IGHG1*03 CH1 R120>K
+(122-451)], (224-212?)-disulfure avec la
+
+chaone lygire lambda (1?-213?) [Homo sapiens V-LAMBDA (IGLV3- 19*01
+(96.80%) -IGLJ3*01) [6.3.11] (1?-107?) -IGLC3*03 (108?-213?)]; dimire
+(230-230??:233-233??)-bisdisulfure
+
+inmunoglobulina G1-lambda, anti-[Homo sapiens TNFRSF10B (miembro 10B de
+la superfamilia de receptores del factor de necrosis tumoral, DR5,
+receptor de muerte 5, TRAIL-R2, receptor 2
+
+del ligando inductor de la apoptosis de la familiaTNF, TR-2, CD262)],
+anticuerpo monoclonal de Homo sapiens ; 
+
+cadena pesada gamma1 (1-451) [Homo sapiens VH (IGHV3-20*01 (91.80%)
+-(IGHD)-IGHJ2*01 R120>K, L123>T) [8.8.14] (1-121) - IGHG1*03 CH1 R120>K
+(122-451)], (224-212?)-disulfuro con la
+
+cadena ligera lambda (1?-213?) [Homo sapiens V-LAMBDA (IGLV3- 19*01
+(96.80%) -IGLJ3*01) [6.3.11] (1?-107?) -IGLC3*03 (108?-213?)]; dnmero
+(230-230??:233-233??)-bisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+30/06/2010
+
+9255
+
+		
+

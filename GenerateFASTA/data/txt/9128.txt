@@ -1,0 +1,116 @@
+daratumumab (101)							9128
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLLESGGG LVQPGGSLRL SCAVSGFTFN SFAMSWVRQA PGKGLEWVSA  50
+
+ISGSGGGTYY ADSVKGRFTI SRDNSKNTLY LQMNSLRAED TAVYFCAKDK 100
+
+ILWFGEPVFD YWGQGTLVTV SSASTKGPSV FPLAPSSKST SGGTAALGCL 150
+
+VKDYFPEPVT VSWNSGALTS GVHTFPAVLQ SSGLYSLSSV VTVPSSSLGT 200
+
+QTYICNVNHK PSNTKVDKRV EPKSCDKTHT CPPCPAPELL GGPSVFLFPP 250
+
+KPKDTLMISR TPEVTCVVVD VSHEDPEVKF NWYVDGVEVH NAKTKPREEQ 300
+
+YNSTYRVVSV LTVLHQDWLN GKEYKCKVSN KALPAPIEKT ISKAKGQPRE 350
+
+PQVYTLPPSR EEMTKNQVSL TCLVKGFYPS DIAVEWESNG QPENNYKTTP 400
+
+PVLDSDGSFF LYSKLTVDKS RWQQGNVFSC SVMHEALHNH YTQKSLSLSP 450
+
+GK                                                     452
+
+Light chain / Chaone lygire / Cadena ligera
+
+EIVLTQSPAT LSLSPGERAT LSCRASQSVS SYLAWYQQKP GQAPRLLIYD  50
+
+ASNRATGIPA RFSGSGSGTD FTLTISSLEP EDFAVYYCQQ RSNWPPTFGQ 100
+
+GTKVEIKRTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV 150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG 200
+
+LSSPVTKSFN RGEC                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	149-205	266-326	372-430
+
+	22??-96??	149??-205??	266??-326??	372??-430??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	225-214?	225??-214???
+
+
+
+Inter-H-H	231-231??	234-234??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+302, 302??
+
+CAS		945721-28-8
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens ADP-ribosyl cyclase 1 (CD38,
+cyclic ADP-ribose hydrolase 1, cADPr hydrolase 1, T10)], Homo sapiens
+monoclonal antibody; 
+
+gamma1 heavy chain (1-452) [Homo sapiens VH (IGHV3-23*01 (94.90%)
+-(IGHD)-IGHJ4*01) [8.8.15] (1-122) -IGHG1*03 (123-452)],
+(225-214?)-disulfide with kappa light chain (1?-214?) [Homo sapiens
+V-KAPPA (IGKV3-11*01 (100.00%) -IGKJ1*01) [6.3.9] 
+
+(1?-107?) -IGKC*01 (108?-214?)]; (231-231??:234-234??)-bisdisulfide
+dimer
+
+immunoglobuline G1-kappa, anti-[Homo sapiens ADP-ribosyl cyclase 1
+(CD38, cyclic ADP-ribose hydrolase 1, cADPr hydrolase 1, T10)], Homo
+sapiens anticorps monoclonal; 
+
+chaone lourde gamma1 (1-452) [Homo sapiens VH (IGHV3-23*01 (94.90%)
+-(IGHD)-IGHJ4*01) [8.8.15] (1-122) -IGHG1*03 (123-452)],
+(225-214?)-disulfure avec la chaone lygire kappa (1?-214?) [Homo sapiens
+V-KAPPA (IGKV3-11*01 (100.00%) -IGKJ1*01) [6.3.9] (1?-107?) -IGKC*01
+(108?-214?)]; dimire (231-231??:234-23'??)-bisdisulfure 
+
+inmunoglobulina G1-kappa, anti-[ADP-ribosil ciclasa 1 de Homo sapiens
+(CD38, hidrolasa 1 de ADP ciclico-ribosa, cADPr hidrolasa 1, T10)],
+anticuerpo monoclonal de Homo sapiens;
+
+cadena pesada gamma1 (1-452) [Homo sapiens VH (IGHV3-23*01 (94.90%)
+-(IGHD)-IGHJ4*01) [8.8.15] (1-122) -IGHG1*03 (123-452)],
+(225-214?)-disulfuro con la cadena ligera kappa (1?-214?) [Homo sapiens
+V-KAPPA (IGKV3-11*01 (100.00%) -IGKJ1*01) [6.3.9] (1?-107?) -IGKC*01
+(108?-214?)]; dnmero (231-231??:234-23'??)-bisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/07/2009
+
+p. 1/1
+
+		
+

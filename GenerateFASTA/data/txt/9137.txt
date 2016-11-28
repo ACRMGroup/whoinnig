@@ -1,0 +1,112 @@
+fezakinumab (101)							9137
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLVQSGAE VKKPGASVKV SCKASGYTFT NYYMHWVRQA PGQGLEWVGW  50
+
+INPYTGSAFY AQKFRGRVTM TRDTSISTAY MELSRLRSDD TAVYYCAREP 100
+
+EKFDSDDSDV WGRGTLVTVS SASTKGPSVF PLAPSSKSTS GGTAALGCLV 150
+
+KDYFPEPVTV SWNSGALTSG VHTFPAVLQS SGLYSLSSVV TVPSSSLGTQ 200
+
+TYICNVNHKP SNTKVDKKVE PKSCDKTHTC PPCPAPELLG GPSVFLFPPK 250
+
+PKDTLMISRT PEVTCVVVDV SHEDPEVKFN WYVDGVEVHN AKTKPREEQY 300
+
+NSTYRVVSVL TVLHQDWLNG KEYKCKVSNK ALPAPIEKTI SKAKGQPREP 350
+
+QVYTLPPSRE EMTKNQVSLT CLVKGFYPSD IAVEWESNGQ PENNYKTTPP 400
+
+VLDSDGSFFL YSKLTVDKSR WQQGNVFSCS VMHEALHNHY TQKSLSLSPG 450
+
+Light chain / Chaone lygire / Cadena ligera
+
+QAVLTQPPSV SGAPGQRVTI SCTGSSSNIG AGYGVHWYQQ LPGTAPKLLI  50
+
+YGDSNRPSGV PDRFSGSKSG TSASLAITGL QAEDEADYYC QSYDNSLSGY 100
+
+VFGGGTQLTV LGQPKAAPSV TLFPPSSEEL QANKATLVCL ISDFYPGAVT 150
+
+VAWKADSSPV KAGVETTTPS KQSNNKYAAS SYLSLTPEQW KSHRSYSCQV 200
+
+THEGSTVEKT VAPTECS                                     217
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	148-204	265-325	371-429
+
+	22??-96??	148??-204??	265??-325??	371??-429??
+
+Intra-L	22?-90?	139?-198?
+
+
+
+	22???-90???	139???-198???
+
+
+
+Inter-H-L	224-216?	224??-216???
+
+
+
+Inter-H-H	230-230??	233-233??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+301, 301??
+
+CAS		1007106-86-6
+
+Description
+
+immunoglobulin G1-lambda, anti-[Homo sapiens interleukin 22 (IL22,
+IL-22, ILTIF, IL-TIF)], Homo sapiens monoclonal antibody; 
+
+gamma1 heavy chain (1-450) [Homo sapiens VH (IGHV1-2*02 (91.80%)
+-(IGHD)-IGHJ2*01) [8.8.14] (1-121) -IGHG1*03 CH1 R120>K, CH3 K130>del
+(122-450)], (224-216?)-disulfide with lambda light chain (1?-217?) [Homo
+sapiens V-LAMBDA (IGLV1-40*01 (96.00%) -IGLJ2*01 K123>Q) [9.3.11]
+(1?-111?) -IGLC2*01 (112?-217?)]; (230-230??:233-233??)-bisdisulfide
+dimer 
+
+immunoglobuline G1-lambda, anti-[Homo sapiens interleukine 22 (IL22,
+IL-22, ILTIF, IL-TIF)], Homo sapiens anticorps monoclonal; 
+
+chaone lourde gamma1 (1-450) [Homo sapiens VH (IGHV1-2*02 (91.80%)
+-(IGHD)-IGHJ2*01) [8.8.14] (1-121) -IGHG1*03 CH1 R120>K, CH3 K130>del
+(122-450)], (224-216?)-disulfure avec la chaone lygire lamba (1?-217?)
+[Homo sapiens V-LAMBDA (IGLV1-40*01 (96.00%) -IGLJ2*01 K123>Q) [9.3.11]
+(1?-111?) -IGLC2*01 (112?-217?)]; dimire
+(230-230??:233-233??)-bisdisulfure 
+
+inmunoglobulina G1-lambda, anti-[interleukina 22 (IL22, IL-22, ILTIF,
+IL-TIF) de Homo sapiens], anticuerpo monoclonal de Homo sapiens; 
+
+cadena pesada gamma1 (1-450) [Homo sapiens VH (IGHV1-2*02 (91.80%)
+-(IGHD)-IGHJ2*01) [8.8.14] (1-121) -IGHG1*03 CH1 R120>K, CH3 K130>del
+(122-450)], (224-216?)-disulfuro con la cadena ligera lambda (1?-217?)
+[Homo sapiens V-LAMBDA (IGLV1-40*01 (96.00%) -IGLJ2*01 K123>Q) [9.3.11]
+(1?-111?) -IGLC2*01 (112?-217?)]; dnmero
+(230-230??:233-233??)-bisdisulfuro 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/07/2009
+
+p. 1/1
+
+		
+

@@ -1,0 +1,109 @@
+sifalimumab (101)							9135
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLVQSGAE VKKPGASVKV SCKASGYTFT SYSISWVRQA PGQGLEWMGW  50
+
+ISVYNGNTNY AQKFQGRVTM TTDTSTSTAY LELRSLRSDD TAVYYCARDP 100
+
+IAAGYWGQGT LVTVSSASTK GPSVFPLAPS SKSTSGGTAA LGCLVKDYFP 150
+
+EPVTVSWNSG ALTSGVHTFP AVLQSSGLYS LSSVVTVPSS SLGTQTYICN 200
+
+VNHKPSNTKV DKKVEPKSCD KTHTCPPCPA PELLGGPSVF LFPPKPKDTL 250
+
+MISRTPEVTC VVVDVSHEDP EVKFNWYVDG VEVHNAKTKP REEQYNSTYR 300
+
+VVSVLTVLHQ DWLNGKEYKC KVSNKALPAP IEKTISKAKG QPREPQVYTL 350
+
+PPSREEMTKN QVSLTCLVKG FYPSDIAVEW ESNGQPENNY KTTPPVLDSD 400
+
+GSFFLYSKLT VDKSRWQQGN VFSCSVMHEA LHNHYTQKSL SLSPGK     446
+
+Light chain / Chaone lygire / Cadena ligera
+
+EIVLTQSPGT LSLSPGERAT LSCRASQSVS STYLAWYQQK PGQAPRLLIY  50
+
+GASSRATGIP DRFSGSGSGT DFTLTISRLE PEDFAVYYCQ QYGSSPRTFG 100
+
+QGTKVEIKRT VAAPSVFIFP PSDEQLKSGT ASVVCLLNNF YPREAKVQWK 150
+
+VDNALQSGNS QESVTEQDSK DSTYSLSSTL TLSKADYEKH KVYACEVTHQ 200
+
+GLSSPVTKSF NRGEC                                       215
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	143-199	260-320	366-424
+
+	22??-96??	143??-199??	260??-320??	366??-424??
+
+Intra-L	23?-89?	135?-195?
+
+
+
+	23???-89???	135???-195???
+
+
+
+Inter-H-L	219-215?	219??-215???
+
+
+
+Inter-H-H	225-225??	228-228??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+296, 296??
+
+CAS		1006877-41-3
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens interferon alpha
+(IFN-alpha)], Homo sapiens monoclonal antibody; 
+
+gamma1 heavy chain (1-446) [Homo sapiens VH (IGHV1-18*01 (95.90%)
+-(IGHD)-IGHJ4*01) [8.8.9] (1-116) -IGHG1*03 CH1 R120>K (117-446)],
+(219-213?)-disulfide with kappa light chain (1?-213?) [Homo sapiens
+V-KAPPA (IGKV3-20*01 (99.00%) -IGKJ1*01) [7.3.9] (1?-108?) -IGKC*01
+(109?-215?)]; (225-225??:228-228??)-bisdisulfide dimer 
+
+immunoglobuline G1-kappa, anti-[Homo sapiens interfyron alpha
+(IFN-alpha)], Homo sapiens anticorps monoclonal; 
+
+chaone lourde gamma1 (1-446) [Homo sapiens VH (IGHV1-18*01 (95.90%)
+-(IGHD)-IGHJ4*01) [8.8.9] (1-116) -IGHG1*03 CH1 R120>K (117-446)],
+(219-215?)-disulfure avec la chaone lygire kappa (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-20*01 (99.00%) -IGKJ1*01) [7.3.9] (1?-108?) -IGKC*01
+(109?-215?)]; dimire (225-225??:228-228??)-bisdisulfure 
+
+inmunoglobulina G1-kappa, anti-[interferun alfa (IFN-alfa) de Homo
+sapiens], anticuerpo monoclonal de Homo sapiens; 
+
+cadena pesada gamma1 (1-446) [Homo sapiens VH (IGHV1-18*01 (95.90%)
+-(IGHD)-IGHJ4*01) [8.8.9] (1-116) -IGHG1*03 CH1 R120>K (117-446)],
+(219-215?)-disulfuro con la cadena ligera kappa (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-20*01 (99.00%) -IGKJ1*01) [7.3.9] (1?-108?) -IGKC*01
+(109?-215?)]; dnmero (225-225??:228-228??)-bisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/07/2009
+
+p. 1/1
+
+		
+

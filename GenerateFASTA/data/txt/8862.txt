@@ -1,0 +1,156 @@
+etaracizumab (99)							
+
+Structure	
+
+? -Heavy chain / Chaine ? lourde / Cadena ? pesada
+
+VKDYF	150
+
+PEPVTVSWNS	GALTSGVHTF	PAVLQSSGLY	SLSSVVTVPS	SSLGTQTYIC	200
+
+NVNHKPSNTK	VDKRVEPKSC	DKTHTCPPCP	APELLGGPSV	FLFPPKPKDT	250
+
+LMISRTPEVT	CVVVDVSHED	PEVKFNWYVD	GVEVHNAKTK	PREEQYNSTY	300
+
+RVVSVLTVLH	QDWLNGKEYK	CKVSNKALPA	PIEKTISKAK	GQPREPQVYT	350
+
+LPPSR????????????????????????????????????????????????????????
+
+?-Light chain/ Chaine ? legere / Cadena ? ligera
+
+EIVLTQSPAT	LSLSPGERAT	LSCQASQSIS	NFLHWYQQRP	GQAPRLLIRY	50?
+
+RSQSISGIPA	RFSGSGSGTD	FTLTISSLEP	EDFAVYYCQQ	SGSWPLTFGG	100?
+
+GTKVEIKRTV	AAPSVFIFPP	SDEQLKSGTA	SVVCLLNNFY	PREAKVQWKV	150?
+
+DNALQSGNSQ	ESVTEQDSKD	STYSLSSTLT	LSKADYEKHK	VYACEVTHQG	200?
+
+LSSPVTKSFN	RGEC
+
+
+
+214?
+
+
+
+Disulfide bridges location / positions des ponts disulfure / posiciones
+de los puentes disulfuro
+
+22-96	22??-96??	23?-88?	23???-88???	134?-194?	134???-194???	144-200
+144??-200??
+
+214?-220	214???-220??	226-226??	229-229??	261-321	261??-321??	367-425
+367??-425??
+
+
+
+Molecular formula	C6392H9908N1732O1996S42	
+
+Description
+
+% hB
+
+_
+
+_
+
+2
+
+6
+
+7
+
+k
+
+o
+
+p
+
+H
+
+N
+
+P
+
+R
+
+T
+
+W
+
+I
+
+K
+
+M
+
+O
+
+_
+
+?
+
+2
+
+_
+
+M
+
+X
+
+c
+
+k
+
+o
+
+2
+
+H
+
+_
+
+?
+
+-
+
+~
+
+W
+
+M
+
+M
+
+O
+
+d
+
+'
+
+_
+
+=
+
+???Ia, CD51/platelet membrane glycoprotein IIIa, vitronectin receptor)],
+humanized monoclonal antibody, MEDI-522 (or hLM609); gamma1 heavy chain
+(1-447) [humanized VH (Homo sapiens FR/Mus musculus CDR from clone
+LM609-Homo sapiens IGHJ5*01, L123>T) [8.8.10] (1-117) -Homo sapiens
+IGHG1*03 (118-447)], (220-214')-disulfide with kappa light chain
+(1?-214?) [humanized V-KAPPA (Homo sapiens FR/Mus musculus CDR from
+clone LM609-Homo sapiens IGKJ4*01) [6.3.9] (1?-107?) -Homo sapiens
+IGKC*01 (108?-214?)]; (226-226'':230-230'')-bisdisulfide dimer
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+8862
+
+1/1
+
+		
+

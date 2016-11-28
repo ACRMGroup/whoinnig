@@ -2,14 +2,15 @@
 
 use strict;
 
-$::dataDir = "data/";
+$::dataDir = "./data";
 $::binDir  = "share/bin";
+$::URLBase = "https://mednet-communities.net/inn/db";
 
 
 my @allData = ParseINNMedNet();
 PrintAllData(@allData);
 
-GetMissingFiles($::dataDir, @allData)
+GetMissingFiles($::dataDir, @allData);
 
 
 sub GetMissingFiles
@@ -20,36 +21,30 @@ sub GetMissingFiles
     {
         my $id      = $$item{'id'};
         my $url     = $$item{'url'};
-        my $faaFile = "$dataDir/$id.faa";
-        if(! -e $faaFile)
+        my $name    = $$item{'name'};
+        my $faaFile = "$dataDir/faa/$id.faa";
+        if(($url ne "NULL") && (! -e $faaFile))
         { 
-            GrabURLAsFAA($url, $id, $faaFile);
+            GrabURLAsFAA($name, $url, $id, $faaFile);
         }
     }
 }
 
 sub GrabURLAsFAA
 {
-    my($url, $id, $faaFile) = @_;
-    my $tStem = "$$" .  time();
-    my $tmpDoc = "/var/tmp/$tStem.doc";
-    my $tmpTxt = "/var/tmp/$tStem.txt";
+    my($name, $url, $id, $faaFile) = @_;
+    my $tmpDoc = "$::dataDir/doc/$id.doc";
+    my $tmpTxt = "$::dataDir/txt/$id.txt";
 
-    `wget -o $tmpDoc $url`;
+    my $fullURL = "$::URLBase/$url";
 
-    DocToFAA($tmpDoc, $tmptxt, $faaFile);
 
-    unlink($tmpDoc);
-    unlink($tmpTxt);
+    `wget -O $tmpDoc $fullURL`           if(! -e $tmpDoc);
+    `$::binDir/catdoc $tmpDoc > $tmpTxt` if(! -e $tmpTxt);
+
+    TxtToFAA($name, $tmpTxt, $faaFile);
 }
 
-
-sub DocToFAA
-{
-    my($tmpDoc, $tmpTxt, $faaFile) = @_; 
-    my $exe = "$::binDir/catdoc $tmpDoc > $tmpTxt";
-    `$exe`;
-}
 
 # ----------------------------------------------------------------------
 # Parses a INN MedNet .html results file to find URLs, IDs, Name,
@@ -174,6 +169,63 @@ sub PrintAllData
         printf("%-20s %5d %-35s %4d %4d\n",
                $$data{'url'}, $$data{'id'}, $$data{'name'}, 
                $$data{'proposed'}, $$data{'recommended'});
+    }
+}
+
+# ----------------------------------------------------------------------
+sub TxtToFAA
+{
+    my($name, $tmpTxt, $faaFile) = @_; 
+
+    if(open(my $inFp, '<', $tmpTxt))
+    {
+        if(open(my $outFp, '>', $faaFile))
+        {
+            my $inChain = 0;
+            my $chain   = '';
+            my $seq     = '';
+            while(<$inFp>)
+            {
+                chomp;
+                s/^\s+//;
+                if(length)
+                {
+                    if(/^heavy/i)
+                    {
+                        $inChain = 1;
+                        $seq     = '';
+                        print $outFp ">${name}_H\n";
+                    }
+                    elsif(/^light/i)
+                    {
+                        $inChain = 1;
+                        $seq     = '';
+                        print $outFp ">${name}_L\n";
+                    }
+                    elsif(/disulphide/i || /disulfide/i)
+                    {
+                        $inChain = 0;
+                    }
+                    elsif($inChain)
+                    {
+                        s/\s+/ /g;
+                        s/[0-9]//g;
+                        s/\?//g;
+                        print $outFp "$_\n";
+                    }
+                }
+            }
+            close $outFp;
+        }
+        else
+        {
+            print STDERR "Warning: Unable to write FAA file: $faaFile\n";
+        }
+        close $inFp;
+    }
+    else
+    {
+        print STDERR "Warning: Unable to read text file: $tmpTxt\n";
     }
 }
 

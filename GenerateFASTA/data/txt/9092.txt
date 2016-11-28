@@ -1,0 +1,95 @@
+robatumumab (100)(62)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVQSGGG LVKPGGSLRL SCAASGFTFS SFAMHWVRQA PGKGLEWISV  50
+
+IDTRGATYYA DSVKGRFTIS RDNAKNSLYL QMNSLRAEDT AVYYCARLGN 100
+
+FYYGMDVWGQ GTTVTVSSAS TKGPSVFPLA PSSKSTSGGT AALGCLVKDY 150
+
+FPEPVTVSWN SGALTSGVHT FPAVLQSSGL YSLSSVVTVP SSSLGTQTYI 200
+
+CNVNHKPSNT KVDKKVEPKS CDKTHTCPPC PAPELLGGPS VFLFPPKPKD 250
+
+TLMISRTPEV TCVVVDVSHE DPEVKFNWYV DGVEVHNAKT KPREEQYNST 300
+
+YRVVSVLTVL HQDWLNGKEY KCKVSNKALP APIEKTISKA KGQPREPQVY 350
+
+TLPPSRDELT KNQVSLTCLV KGFYPSDIAV EWESNGQPEN NYKTTPPVLD 400
+
+SDGSFFLYSK LTVDKSRWQQ GNVFSCSVMH EALHNHYTQK SLSLSPGK   448
+
+Light chain / Chaone lygire / Cadena ligera
+
+EIVLTQSPGT LSVSPGERAT LSCRASQSIG SSLHWYQQKP GQAPRLLIKY  50
+
+ASQSLSGIPD RFSGSGSGTD FTLTISRLEP EDFAVYYCHQ SSRLPHTFGQ 100
+
+GTKVEIKRTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV 150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG 200
+
+LSSPVTKSFN RGEC                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-95	145-201	262-322	368-426
+
+	22??-95??	145??-201??	262??-322??	368??-426??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	221-214?	221??-214???
+
+
+
+Inter-H-H	227-227??	230-230??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+298, 298??
+
+Molecular formula	C6418H9960N1732O1992S42
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens insulin-like growth factor I
+receptor (IGF-1R, CD221)], Homo sapiens monoclonal antibody;
+
+gamma1 heavy chain (1-448) [Homo sapiens VH (IGHV3-48*03 (87.80%)
+-(IGHD)-IGHJ6*01) [8.7.12] (1-118) -IGHG1*01 (119-448)],
+(221-214?)-disulfide with kappa light chain (1?-214?) [Homo sapiens
+V-KAPPA (IGKV3-20*01 (83.30%) -IGKJ1*01) [6.3.9] 
+
+(1?-107?) -IGKC*01] (108?-214?); (227-227??:230-230??)-bisdisulfide
+dimer 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9092
+
+December 2008
+
+Page 1/1
+
+		
+

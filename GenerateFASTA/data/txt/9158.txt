@@ -1,0 +1,115 @@
+fresolimumab (101)							9158
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLVQSGAE VKKPGSSVKV SCKASGYTFS SNVISWVRQA PGQGLEWMGG  50
+
+VIPIVDIANY AQRFKGRVTI TADESTSTTY MELSSLRSED TAVYYCASTL 100
+
+GLVLDAMDYW GQGTLVTVSS ASTKGPSVFP LAPCSRSTSE STAALGCLVK 150
+
+DYFPEPVTVS WNSGALTSGV HTFPAVLQSS GLYSLSSVVT VPSSSLGTKT 200
+
+YTCNVDHKPS NTKVDKRVES KYGPPCPSCP APEFLGGPSV FLFPPKPKDT 250
+
+LMISRTPEVT CVVVDVSQED PEVQFNWYVD GVEVHNAKTK PREEQFNSTY 300
+
+RVVSVLTVLH QDWLNGKEYK CKVSNKGLPS SIEKTISKAK GQPREPQVYT 350
+
+LPPSQEEMTK NQVSLTCLVK GFYPSDIAVE WESNGQPENN YKTTPPVLDS 400
+
+DGSFFLYSRL TVDKSRWQEG NVFSCSVMHE ALHNHYTQKS LSLSLGK    447
+
+Light chain / Chaone lygire / Cadena ligera
+
+ETVLTQSPGT LSLSPGERAT LSCRASQSLG SSYLAWYQQK PGQAPRLLIY  50
+
+GASSRAPGIP DRFSGSGSGT DFTLTISRLE PEDFAVYYCQ QYADSPITFG 100
+
+QGTRLEIKRT VAAPSVFIFP PSDEQLKSGT ASVVCLLNNF YPREAKVQWK 150
+
+VDNALQSGNS QESVTEQDSK DSTYSLSSTL TLSKADYEKH KVYACEVTHQ 200
+
+GLSSPVTKSF NRGEC                                       215
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	147-203	261-321	367-425
+
+	22??-96??	147??-203??	261??-321??	367??-425??
+
+Intra-L	23?-89?	135?-195?
+
+
+
+	23???-89???	135???-195???
+
+
+
+Inter-H-L	134-215?	134??-215???
+
+
+
+Inter-H-H	226-226??	229-229??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+297, 297??
+
+CAS		948564-73-6
+
+Description
+
+immunoglobulin G4-kappa, anti-[Homo sapiens transforming growth factor
+beta (TGFB or TGFbeta or TGF-beta, including TGF-beta-1 or TGFB1,
+TGF-beta-2 or TGFB2 or G-TsF and TGF-beta-3 or TGFB3)], Homo sapiens
+monoclonal antibody; 
+
+gamma4 heavy chain (1-447) [Homo sapiens VH (IGHV1-69*10 (89.70%)
+-(IGHD)-IGHJ3*01) [8.8.13] (1-120) -IGHG4*01 (121-447)],
+(134-215?)-disulfide with kappa light chain (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-20*01 (93.80%) -IGKJ5*01) [7.3.9] (1?-108?) -IGKC*01
+(109?-215?)]; (226-226??:229-229??)-bisdisulfide dimer 
+
+immunoglobuline G4-kappa, anti-[Homo sapiens facteur de croissance
+transformant bkta (TGFB ou TGFbkta ou TGF-bkta, comprenant TGF-bkta1 ou
+TGFB1, TGF-bkta2 ou TGFB2 ou G-TsF et TGF-bkta3 ou TGFB3)], Homo sapiens
+anticorps monoclonal; 
+
+chaone lourde gamma4 (1-447) [Homo sapiens VH (IGHV1-69*10 (89.70%)
+-(IGHD)-IGHJ3*01) [8.8.13] (1-120) -IGHG4*01 (121-447)],
+(134-215?)-disulfure avec la chaone lygire kappa (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-20*01 (93.80%) -IGKJ5*01) [7.3.9] (1?-108?) -IGKC*01
+(109?-215?)]; dimire (226-226??:229-229??)-bisdisulfure
+
+inmunoglobulina G4-kappa, anti-[factor de crecimiento transformador 
+beta de Homo sapiens (TGFB o TGFbeta o TGF-beta, incluye TGF-beta-1 o
+TGFB1, TGF-beta-2 o TGFB2 o G-TsF y TGF-beta-3 o TGFB3)], anticuerpo
+monoclonal de Homo sapiens; 
+
+cadena pesada gamma4 (1-447) [Homo sapiens VH (IGHV1-69*10 (89.70%)
+-(IGHD)-IGHJ3*01) [8.8.13] (1-120) -IGHG4*01 (121-447)],
+(134-215?)-disulfuro con la cadena ligera kappa (1?-215?) [Homo sapiens
+V-KAPPA (IGKV3-20*01 (93.80%) -IGKJ5*01) [7.3.9] (1?-108?) -IGKC*01
+(109?-215?)]; dnmero (226-226??:229-229??)-bisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/07/2009
+
+p. 1/1
+
+		
+

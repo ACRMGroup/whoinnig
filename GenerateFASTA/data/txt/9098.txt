@@ -1,0 +1,94 @@
+ramucirumab (100)(62)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVQSGGG LVKPGGSLRL SCAASGFTFS SYSMNWVRQA PGKGLEWVSS  50
+
+ISSSSSYIYY ADSVKGRFTI SRDNAKNSLY LQMNSLRAED TAVYYCARVT 100
+
+DAFDIWGQGT MVTVSSASTK GPSVFPLAPS SKSTSGGTAA LGCLVKDYFP 150
+
+EPVTVSWNSG ALTSGVHTFP AVLQSSGLYS LSSVVTVPSS SLGTQTYICN 200
+
+VNHKPSNTKV DKKVEPKSCD KTHTCPPCPA PELLGGPSVF LFPPKPKDTL 250
+
+MISRTPEVTC VVVDVSHEDP EVKFNWYVDG VEVHNAKTKP REEQYNSTYR 300
+
+VVSVLTVLHQ DWLNGKEYKC KVSNKALPAP IEKTISKAKG QPREPQVYTL 350
+
+PPSREEMTKN QVSLTCLVKG FYPSDIAVEW ESNGQPENNY KTTPPVLDSD 400
+
+GSFFLYSKLT VDKSRWQQGN VFSCSVMHEA LHNHYTQKSL SLSPGK     446
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIQMTQSPSS VSASIGDRVT ITCRASQGID NWLGWYQQKP GKAPKLLIYD  50
+
+ASNLDTGVPS RFSGSGSGTY FTLTISSLQA EDFAVYFCQQ AKAFPPTFGG 100
+
+GTKVDIKGTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV 150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG 200
+
+LSSPVTKSFN RGEC                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	143-199	260-320	366-424
+
+	22??-96??	143??-199??	260??-320??	366??-424??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	219-214?	219??-214???
+
+
+
+Inter-H-H	225-225??	228-228??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+296, 296??
+
+Molecular formula	C6374H9896N1692O1996S46
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens vascular endothelial growth
+factor receptor 2 (VEGFR2, KDR, kinase insert domain receptor, FLK1,
+CD309) extracellular domain], Homo sapiens monoclonal antibody;
+
+gamma1 heavy chain (1-446) [Homo sapiens VH (IGHV3-21*01(99.00%)
+-(IGHD)-IGHJ3*02) [8.8.9] (1-116) - IGHG1*03, R120>K (117-446)],
+(219-214?)-disulfide with kappa light chain (1?-214?) [Homo sapiens
+V-KAPPA (IGKV1-12*01 (85.30%) -IGKJ4*01, E125>D) [6.3.9] (1?-107?)
+-IGKC*01, R1.4>G (108?-214?)]; (225-225??:228-228??)-bisdisulfide dimer 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9098
+
+December 2008
+
+Page 1/1
+
+		
+

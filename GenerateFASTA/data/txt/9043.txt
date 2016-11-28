@@ -1,0 +1,85 @@
+afutuzumab (99)							
+
+Structure	
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLVQSGAE	VKKPGSSVKV	SCKASGYAFS	YSWINWVRQA	PGQGLEWMGR	50
+
+IFPGDGDTDY	NGKFKGRVTI	TADKSTSTAY	MELSSLRSED	TAVYYCARNV	100
+
+FDGYWLVYWG	QGTLVTVSSA	STKGPSVFPL	APSSKSTSGG	TAALGCLVKD	150
+
+YFPEPVTVSW	NSGALTSGVH	TFPAVLQSSG	LYSLSSVVTV	PSSSLGTQTY	200
+
+ICNVNHKPSN	TKVDKKVEPK	SCDKTHTCPP	CPAPELLGGP	SVFLFPPKPK	250
+
+DTLMISRTPE	VTCVVVDVSH	EDPEVKFNWY	VDGVEVHNAK	TKPREEQYNS	300
+
+TYRVVSVLTV	LHQDWLNGKE	YKCKVSNKAL	PAPIEKTISK	AKGQPREPQV	350
+
+YTLPPSRDEL	TKNQVSLTCL	VKGFYPSDIA	VEWESNGQPE	NNYKTTPPVL	400
+
+DSDGSFFLYS	KLTVDKSRWQ	QGNVFSCSVM	HEALHNHYTQ	KSLSLSPG	448
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIVMTQTPLS	LPVTPGEPAS	ISCRSSKSLL	HSNGITYLYW	YLQKPGQSPQ	50?
+
+LLIYQMSNLV	SGVPDRFSGS	GSGTDFTLKI	SRVEAEDVGV	YYCAQNLELP	100?
+
+YTFGGGTKVE	IKRTVAAPSV	FIFPPSDEQL	KSGTASVVCL	LNNFYPREAK	150?
+
+VQWKVDNALQ	SGNSQESVTE	QDSKDSTYSL	SSTLTLSKAD	YEKHKVYACE	200?
+
+VTHQGLSSPV	TKSFNRGEC
+
+
+
+219?
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+22-96	22??-96??	23?-93?	23???-93???	139?-199?	139???-199???	146-202
+146??-202??
+
+219?-222	219???-222??	228-228??	231-231??	263-323	263??-323??	369-427
+369??-427??
+
+Glycosylation sites / Sites de glycosylation / Posiciones de
+glicosilaciun
+
+Ser-53	Ser-61	Asn-157	Thr-159	Asn-167	Thr-169
+
+
+
+Molecular formula	C6512H10060N1712O2020S44
+
+Description
+
+immunoglobulin G1, anti-[Homo sapiens CD20 (membrane-spanning 4-domains
+subfamily A member 1, MS4A1, B lymphocyte surface antigen B1, Leu-16,
+Bp35)], humanized monoclonal antibody, GA101; gamma1 heavy chain (1-448)
+[humanized VH (Homo sapiens FR/Mus musculus CDR, Homo sapiens IGHJ4*01)
+[8.8.12] (1-119) -Homo sapiens IGHG1*01 (120-448)], (222-219?)-disulfide
+with kappa light chain (1?-219?) [humanized 
+
+V-KAPPA (Homo sapiens FR/Mus musculus CDR, Homo sapiens IGKJ4*01)
+[11.3.9]
+
+(1?-112?) -Homo sapiens IGKC*01 (113?-219?)];
+(228-228??:231-231??)-bisdisulfide dimer
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9043
+
+1/1
+
+		
+

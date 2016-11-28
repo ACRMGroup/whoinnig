@@ -1,0 +1,109 @@
+tralokinumab (102)
+
+Structure	
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLVQSGAE VKKPGASVKV SCKASGYTFT NYGLSWVRQA PGQGLEWMGW  50
+
+ISANNGDTNY GQEFQGRVTM TTDTSTSTAY MELRSLRSDD TAVYYCARDS 100
+
+SSSWARWFFD LWGRGTLVTV SSASTKGPSV FPLAPCSRST SESTAALGCL 150
+
+VKDYFPEPVT VSWNSGALTS GVHTFPAVLQ SSGLYSLSSV VTVPSSSLGT 200
+
+KTYTCNVDHK PSNTKVDKRV ESKYGPPCPS CPAPEFLGGP SVFLFPPKPK 250
+
+DTLMISRTPE VTCVVVDVSQ EDPEVQFNWY VDGVEVHNAK TKPREEQFNS 300
+
+TYRVVSVLTV LHQDWLNGKE YKCKVSNKGL PSSIEKTISK AKGQPREPQV 350
+
+YTLPPSQEEM TKNQVSLTCL VKGFYPSDIA VEWESNGQPE NNYKTTPPVL 400
+
+DSDGSFFLYS RLTVDKSRWQ EGNVFSCSVM HEALHNHYTQ KSLSLSLGK  449
+
+Light chain / Chaone lygire / Cadena ligera
+
+SYVLTQPPSV SVAPGKTARI TCGGNIIGSK LVHWYQQKPG QAPVLVIYDD  50
+
+GDRPSGIPER FSGSNSGNTA TLTISRVEAG DEADYYCQVW DTGSDPVVFG 100
+
+GGTKLTVLGQ PKAAPSVTLF PPSSEELQAN KATLVCLISD FYPGAVTVAW 150
+
+KADSSPVKAG VETTTPSKQS NNKYAASSYL SLTPEQWKSH RSYSCQVTHE 200
+
+GSTVEKTVAP TECS                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	149-205	263-323	369-427
+
+	22??-96??	149??-205??	263??-323??	369??-427??
+
+Intra-L	22?-87?	136?-195?
+
+
+
+	22???-87???	136???-195???
+
+
+
+Inter-H-L	136-213?	136??-213???
+
+
+
+Inter-H-H	228-228??	231-231??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+299, 299??
+
+CAS		1044515-88-9 
+
+Description
+
+immunoglobulin G4-lambda, anti-[Homo sapiens IL13 (interleukin 13,
+IL-13)], Homo sapiens monoclonal antibody; 
+
+gamma4 heavy chain (1-449) [Homo sapiens VH (IGHV1-18*01 (92.90%)
+-(IGHD)-IGHJ2*01) [8.8.15] (1-122) -IGHG4*01 (123-449)],
+(136-213?)-disulfide with lambda light chain (1?-214?) [Homo sapiens
+V-LAMBDA (IGLV3-21*03 (93.70%) -IGLJ2*01) [6.3.11] (1?-108?) -IGLC2*01
+(109?-214?)]; (228-228??:231-231??)-bisdisulfide dimer 
+
+immunoglobuline G4-lambda, anti-[Homo sapiens IL13 (interleukine 13,
+IL-13)], Homo sapiens anticorps monoclonal; 
+
+chaone lourde gamma4 (1-449) [Homo sapiens VH (IGHV1-18*01 (92.90%)
+-(IGHD)-IGHJ2*01) [8.8.15] (1-122) -IGHG4*01(123-449)],
+(136-213?)-disulfure avec la chaone lygire lambda (1?-214?) [Homo
+sapiens V-LAMBDA (IGLV3-21*03 (93.70%) -IGLJ2*01) [6.3.11] (1?-108?)
+-IGLC2*01 (109?-214?)]; dimire (228-228??:231-231??)-bisdisulfure 
+
+inmunoglobulina G4-lambda, anti-[IL13 (interleukina 13, IL-13) de Homo
+sapiens], anticuerpo monoclonal de Homo sapiens; 
+
+cadena pesada gamma4 (1-449) [Homo sapiens VH (IGHV1-18*01 (92.90%)
+-(IGHD)-IGHJ2*01) [8.8.15] (1-122) -IGHG4*01(123-449)],
+(136-213?)-disulfuro con la cadena ligera lambda (1?-214?) [Homo sapiens
+V-LAMBDA (IGLV3-21*03 (93.70%) -IGLJ2*01) [6.3.11] (1?-108?) -IGLC2*01
+(109?-214?)]; dnmero (228-228??:231-231??)-bisdisulfuro 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/01/2010
+
+9235
+
+		
+

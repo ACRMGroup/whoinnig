@@ -1,0 +1,114 @@
+ganitumab (103)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLQESGPG LVKPSGTLSL TCAVSGGSIS SSNWWSWVRQ PPGKGLEWIG  50
+
+EIYHSGSTNY NPSLKSRVTI SVDKSKNQFS LKLSSVTAAD TAVYYCARWT 100
+
+GRTDAFDIWG QGTMVTVSSA STKGPSVFPL APSSKSTSGG TAALGCLVKD 150
+
+YFPEPVTVSW NSGALTSGVH TFPAVLQSSG LYSLSSVVTV PSSSLGTQTY 200
+
+ICNVNHKPSN TKVDKKVEPK SCDKTHTCPP CPAPELLGGP SVFLFPPKPK 250
+
+DTLMISRTPE VTCVVVDVSH EDPEVKFNWY VDGVEVHNAK TKPREEQYNS 300
+
+TYRVVSVLTV LHQDWLNGKE YKCKVSNKAL PAPIEKTISK AKGQPREPQV 350
+
+YTLPPSRDEL TKNQVSLTCL VKGFYPSDIA VEWESNGQPE NNYKTTPPVL 400
+
+DSDGSFFLYS KLTVDKSRWQ QGNVFSCSVM HEALHNHYTQ KSLSLSPGK  449
+
+Light chain / Chaone lygire / Cadena ligera
+
+DVVMTQSPLS LPVTPGEPAS ISCRSSQSLL HSNGYNYLDW YLQKPGQSPQ  50
+
+LLIYLGSNRA SGVPDRFSGS GSGTDFTLKI SRVEAEDVGV YYCMQGTHWP 100
+
+LTFGQGTKVE IKRTVAAPSV FIFPPSDEQL KSGTASVVCL LNNFYPREAK 150
+
+VQWKVDNALQ SGNSQESVTE QDSKDSTYSL SSTLTLSKAD YEKHKVYACE 200
+
+VTHQGLSSPV TKSFNRGEC                                   219
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	146-202	263-323	369-427
+
+	22??-96??	146??-202??	263??-323??	369??-427??
+
+Intra-L	23?-93?	139?-199?
+
+
+
+	23???-93???	139???-199???
+
+
+
+Inter-H-L	222-219?	222??-219???
+
+
+
+Inter-H-H	228-228??	231-231??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+299, 299??
+
+CAS		905703-97-1 
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens IGF1R (insulin-like growth
+factor 1 receptor, IGF1-R, IGF-1R, CD221)], Homo sapiens monoclonal
+antibody;
+
+gamma1 heavy chain (1-449) [Homo sapiens VH (IGHV4-4*02 (100.00%)
+-(IGHD)-IGHJ3*02) [9.7.12] (1-119) -IGHG1*01 (120-449)],
+(222-219?)-disulfide with kappa light chain (1?-219?) [Homo sapiens
+V-KAPPA (IGKV2-28*01 (95.00%) -IGKJ1*01) [11.3.9] (1?-112?) -IGKC*01
+(113?-219?)]; (228-228??:231-231??)-bisdisulfide dimer 
+
+immunoglobuline G1-kappa, anti-[Homo sapiens IGF1R (rycepteur du facteur
+de croissance 1 analogue a l?insuline, IGF1-R, IGF-1R, CD221)], Homo
+sapiens anticorps monoclonal;
+
+chaone lourde gamma1 (1-449) [Homo sapiens VH (IGHV4-4*02 (100.00%)
+-(IGHD)-IGHJ3*02) [9.7.12] (1-119) -IGHG1*01 (120-449)],
+(222-219?)-disulfure avec la chaone lygire kappa (1?-219?) [Homo sapiens
+V-KAPPA (IGKV2-28*01 (95.00%) -IGKJ1*01) [11.3.9] (1?-112?) -IGKC*01
+(113?-219?)]; dimire (228-228??:231-231??)-bisdisulfure 
+
+inmunoglobulina G1-kappa, anti-[Homo sapiens IGF1R (receptor del factor
+de crecimiento 1 anblogo a la insulina, IGF1-R, IGF-1R, CD221)],
+anticuerpo monoclonal de Homo sapiens;
+
+cadena pesada gamma1 (1-449) [Homo sapiens VH (IGHV4-4*02 (100.00%)
+-(IGHD)-IGHJ3*02) [9.7.12] (1-119) -IGHG1*01 (120-449)],
+(222-219?)-disulfuro con la cadena ligera kappa (1?-219?)
+
+[Homo sapiens V-KAPPA (IGKV2-28*01 (95.00%) -IGKJ1*01) [11.3.9]
+(1?-112?) -IGKC*01 (113?-219?)]; dnmero
+(228-228??:231-231??)-bisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+30/06/2010
+
+9323
+
+		
+

@@ -1,0 +1,114 @@
+rontalizumab (101)							9114
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVESGGG LVQPGGSLRL SCATSGYTFT EYIIHWVRQA PGKGLEWVAS  50
+
+INPDYDITNY NQRFKGRFTI SLDKSKRTAY LQMNSLRAED TAVYYCASWI 100
+
+SDFFDYWGQG TLVTVSSAST KGPSVFPLAP SSKSTSGGTA ALGCLVKDYF 150
+
+PEPVTVSWNS GALTSGVHTF PAVLQSSGLY SLSSVVTVPS SSLGTQTYIC 200
+
+NVNHKPSNTK VDKKVEPKSC DKTHTCPPCP APELLGGPSV FLFPPKPKDT 250
+
+LMISRTPEVT CVVVDVSHED PEVKFNWYVD GVEVHNAKTK PREEQYNSTY 300
+
+RVVSVLTVLH QDWLNGKEYK CKVSNKALPA PIEKTISKAK GQPREPQVYT 350
+
+LPPSREEMTK NQVSLTCLVK GFYPSDIAVE WESNGQPENN YKTTPPVLDS 400
+
+DGSFFLYSKL TVDKSRWQQG NVFSCSVMHE ALHNHYTQKS LSLSPGK    447
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIQMTQSPSS LSASVGDRVT ITCRASQSVS TSSYSYMHWY QQKPGKAPKV  50
+
+LISYASNLES GVPSRFSGSG SGTDFTLTIS SLQPEDFATY YCQHSWGIPR 100
+
+TFGQGTKVEI KRTVAAPSVF IFPPSDEQLK SGTASVVCLL NNFYPREAKV 150
+
+QWKVDNALQS GNSQESVTEQ DSKDSTYSLS STLTLSKADY EKHKVYACEV 200
+
+THQGLSSPVT KSFNRGEC                                    218
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	144-200	261-321	367-425
+
+	22??-96??	144??-200??	261??-321??	367??-425??
+
+Intra-L	23?-92?	138?-198?
+
+
+
+	23???-92???	138???-198???
+
+
+
+Inter-H-L	220-218?	220??-218???
+
+
+
+Inter-H-H	226-226??	229-229??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+297, 297??
+
+CAS		948570-30-7
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens interferon alpha
+(IFN-alpha)], humanized monoclonal antibody;
+
+gamma1 heavy chain [humanized VH (Homo sapiens IGHV3-74*01 (76.30%)
+-(IGHD)-IGHJ4*01) [8.8.10] (1-117) -Homo sapiens IGHG1*03, CH1 R120>K
+(118-447)], (220-218?)-disulfide with kappa light chain (1'-218')
+[humanized V-KAPPA (Homo sapiens IGKV1-39*01 (83.80%) -IGKJ1*01)
+[10.3.9] (1?-111?) -Homo sapiens IGKC*01 (112?-218?)];
+(226-226":229-229")-bisdisulfide dimer 
+
+immunoglobuline G1-kappa, anti-[Homo sapiens interfyron alpha
+(IFN-alpha)], anticorps monoclonal humanisy; 
+
+chaone lourde gamma1  [VH humanisy (Homo sapiens IGHV3-74*01 (76.30%)
+-(IGHD)-IGHJ4*01) [8.8.10] (1-117) -Homo sapiens IGHG1*03, CH1 R120>K
+(118-447)], (220-218?)-disulfure avec la chaone lygire kappa (1'-218')
+[V-KAPPA humanisy (Homo sapiens IGKV1-39*01 (83.80%) -IGKJ1*01) [10.3.9]
+(1?-111?) -Homo sapiens IGKC*01 (112?-218?)]; dimire
+(226-226":229-229")-bisdisulfure 
+
+inmunoglobulina G1-kappa, anti-[interferun alfa de Homo sapiens
+(IFN-alpha)], anticuerpo monoclonal humanizado; 
+
+cadena pesada gamma1 [VH humanizada (Homo sapiens IGHV3-74*01 (76.30%)
+-(IGHD)-IGHJ4*01) [8.8.10] (1-117) -Homo sapiens IGHG1*03, CH1 R120>K
+(118-447)], (220-218?)-disulfuro con la cadena ligera kappa (1'-218')
+[V-KAPPA humanizada (Homo sapiens IGKV1-39*01 (83.80%) -IGKJ1*01)
+[10.3.9] (1?-111?) -Homo sapiens IGKC*01 (112?-218?)]; dnmero
+(226-226":229-229")-bisdisulfuro 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/07/2009
+
+p.   PAGE  1 /2
+
+
+
+		
+

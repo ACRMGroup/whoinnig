@@ -1,0 +1,116 @@
+olaratumab (103)	
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QLQLQESGPG LVKPSETLSL TCTVSGGSIN SSSYYWGWLR QSPGKGLEWI  50
+
+GSFFYTGSTY YNPSLRSRLT ISVDTSKNQF SLMLSSVTAA DTAVYYCARQ 100
+
+STYYYGSGNY YGWFDRWDQG TLVTVSSAST KGPSVFPLAP SSKSTSGGTA 150
+
+ALGCLVKDYF PEPVTVSWNS GALTSGVHTF PAVLQSSGLY SLSSVVTVPS 200
+
+SSLGTQTYIC NVNHKPSNTK VDKRVEPKSC DKTHTCPPCP APELLGGPSV 250
+
+FLFPPKPKDT LMISRTPEVT CVVVDVSHED PEVKFNWYVD GVEVHNAKTK 300
+
+PREEQYNSTY RVVSVLTVLH QDWLNGKEYK CKVSNKALPA PIEKTISKAK 350
+
+GQPREPQVYT LPPSREEMTK NQVSLTCLVK GFYPSDIAVE WESNGQPENN 400
+
+YKTTPPVLDS DGSFFLYSKL TVDKSRWQQG NVFSCSVMHE ALHNHYTQKS 450
+
+LSLSPGK                                                457
+
+Light chain / Chaone lygire / Cadena ligera
+
+EIVLTQSPAT LSLSPGERAT LSCRASQSVS SYLAWYQQKP GQAPRLLIYD  50
+
+ASNRATGIPA RFSGSGSGTD FTLTISSLEP EDFAVYYCQQ RSNWPPAFGQ 100
+
+GTKVEIKRTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV 150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG 200
+
+LSSPVTKSFN RGEC                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-97	154-210	271-331	377-435
+
+	22??-97??	154??-210??	271??-331??	377??-435??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	230-214?	230??-214???
+
+
+
+Inter-H-H	236-236??	239-239??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+30, 30??, 307, 307??
+
+CAS		1024603-93-7 
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens PDGFRA (platelet-derived
+growth factor receptor alpha subunit, CD140a, PDGFR2)], Homo sapiens
+monoclonal antibody;
+
+gamma1 heavy chain (1-457) [Homo sapiens VH (IGHV4-39*01 (90.90%)
+-(IGHD)-IGHJ5*01 G119>D) [10.7.19] (1-127) -IGHG1*03 (128-457)],
+(230-214?)-disulfide with kappa light chain (1?-214?) [Homo sapiens
+V-KAPPA (IGKV3-11*01 (100.00%) -IGKJ1*01) [6.3.9] (1?-107?) -IGKC*01
+(108?-214?)]; (236-236??:239-239??)-bisdisulfide dimer
+
+immunoglobuline G1-kappa, anti-[Homo sapiens PDGFRA (sous-unity alpha du
+rycepteur du facteur de croissance dyrivy des plaquettes, CD140a,
+PDGFR2)], Homo sapiens anticorps monoclonal;
+
+chaone lourde gamma1 (1-457) [Homo sapiens VH (IGHV4-39*01 (90.90%)
+-(IGHD)-IGHJ5*01 G119>D) [10.7.19] (1-127) -IGHG1*03 (128-457)],
+(230-214?)-disulfure avec la chaone lygire kappa (1?-214?) [Homo sapiens
+V-KAPPA (IGKV3-11*01 (100.00%) -IGKJ1*01) [6.3.9] (1?-107?) -IGKC*01
+(108?-214?)]; dimire (236-236??:239-239??)-bisdisulfure 
+
+inmunoglobulina G1-kappa, anti-[Homo sapiens PDGFRA (subunidad alfa del
+receptor del factor de crecimiento derivado de las plaquetas, CD140a,
+PDGFR2)], Homo sapiens anticuerpo
+
+monoclonal;
+
+cadena pesada gamma1 (1-457) [Homo sapiens VH (IGHV4-39*01 (90.90%)
+-(IGHD)-IGHJ5*01 G119>D) [10.7.19] (1-127) -IGHG1*03 (128-457)],
+(230-214?)-disulfuro con la cadena ligera kappa (1?-214?) [Homo sapiens
+V-KAPPA (IGKV3-11*01 (100.00%) -IGKJ1*01) [6.3.9] (1?-107?) -IGKC*01
+(108?-214?)]; dimero (236-236??:239-239??)-bisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+30/06/2010
+
+9308
+
+		
+

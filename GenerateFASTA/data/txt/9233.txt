@@ -1,0 +1,117 @@
+benralizumab (102)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+EVQLVQSGAE VKKPGASVKV SCKASGYTFT SYVIHWVRQR PGQGLAWMGY  50
+
+INPYNDGTKY NERFKGKVTI TSDRSTSTVY MELSSLRSED TAVYLCGREG 100
+
+IRYYGLLGDY WGQGTLVTVS SASTKGPSVF PLAPSSKSTS GGTAALGCLV 150
+
+KDYFPEPVTV SWNSGALTSG VHTFPAVLQS SGLYSLSSVV TVPSSSLGTQ 200
+
+TYICNVNHKP SNTKVDKKVE PKSCDKTHTC PPCPAPELLG GPSVFLFPPK 250
+
+PKDTLMISRT PEVTCVVVDV SHEDPEVKFN WYVDGVEVHN AKTKPREEQY 300
+
+NSTYRVVSVL TVLHQDWLNG KEYKCKVSNK ALPAPIEKTI SKAKGQPREP 350
+
+QVYTLPPSRD ELTKNQVSLT CLVKGFYPSD IAVEWESNGQ PENNYKTTPP 400
+
+VLDSDGSFFL YSKLTVDKSR WQQGNVFSCS VMHEALHNHY TQKSLSLSPG 450
+
+K                                                      451
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIQMTQSPSS LSASVGDRVT ITCGTSEDII NYLNWYQQKP GKAPKLLIYH  50
+
+TSRLQSGVPS RFSGSGSGTD FTLTISSLQP EDFATYYCQQ GYTLPYTFGQ 100
+
+GTKVEIKRTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV 150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG 200
+
+LSSPVTKSFN RGEC                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	148-204	265-325	371-429
+
+	22??-96??	148??-204??	265??-325??	371??-429??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	224-214?	224??-214???
+
+
+
+Inter-H-H	230-230??	233-233??
+
+
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+301, 301??
+
+CAS		1044511-01-4
+
+Description
+
+immunoglobulin G1-kappa, anti-[Homo sapiens IL5RA (interleukin 5
+receptor subunit alpha, CD125)], humanized monoclonal antibody;
+
+gamma1 heavy chain (1-451) [humanized VH (Homo sapiens IGHV1-46*01
+(78.60%) -(IGHD)-IGHJ4*01) [8.8.14] (1-121) -Homo sapiens IGHG1*01
+(122-451)], (224-214?)-disulfide with kappa light chain (1'-214')
+[humanized V-KAPPA (Homo sapiens IGKV1-39*01 (87.40%) -IGKJ2*01) [6.3.9]
+(1?-107?) -Homo sapiens IGKC*01 (108?-214?)];
+(230-230":233-233")-bisdisulfide dimer 
+
+immunoglobuline G1-kappa, anti-[Homo sapiens ILR5A (sous-unity alpha du
+rycepteur de l'interleukine 5, CD125)], anticorps monoclonal humanisy; 
+
+chaone lourde gamma1 (1-451) [VH humanisy (Homo sapiens IGHV1-46*01
+(78.60%) -(IGHD)-IGHJ4*01) [8.8.14] (1-121) -Homo sapiens IGHG1*01
+(122-451)], (224-214?)-disulfure avec la chaone lygire kappa (1'-214')
+[V-KAPPA humanisy (Homo sapiens IGKV1-39*01 (87.40%) -IGKJ2*01) [6.3.9]
+(1?-107?) -Homo sapiens IGKC*01 (108?-214?)]; dimire
+(230-230":233-233")-bisdisulfure 
+
+inmunoglobulina G1-kappa, anti-[Homo sapiens ILR5A (subunidad alfa del
+receptor de la interleukina 5, CD125)], anticuerpo monoclonal
+humanizado; 
+
+cadena pesada gamma1 (1-451) [VH humanizada (Homo sapiens IGHV1-46*01
+(78.60%) -(IGHD)-IGHJ4*01) [8.8.14] (1-121) -Homo sapiens IGHG1*01
+(122-451)], (224-214?)-disulfuro con la cadena ligera kappa (1?-214?)
+[V-KAPPA humanizada (Homo sapiens IGKV1-39*01 (87.40%) -IGKJ2*01)
+[6.3.9] (1?-107?) -Homo sapiens IGKC*01 (108?-214?)]; dnmero
+(230-230":233-233")-bisdisulfuro 
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+15/01/2010
+
+9233
+
+
+
+		
+

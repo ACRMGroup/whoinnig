@@ -1,0 +1,154 @@
+conatumumab (99)							
+
+Structure	
+
+Heavy ?1-chain / Chaine lourde ?1 / Cadena pesada ?1
+
+?-chain / Chaine legere ? / Cadena ligera ?
+
+EIVLTQSPGT	LSLSPGERAT	LSCRASQGIS	RSYLAWYQQK	PGQAPSLLIY	50?
+
+GASSRATGIP	DRFSGSGSGT	DFTLTISRLE	PEDFAVYYCQ	QFGSSPWTFG	100?
+
+QGTKVEIKRT	VAAPSVFIFP	PSDEQLKSGT	ASVVCLLNNF	YPREAKVQWK	150?
+
+VDNALQSGNS	QESVTEQDSK	DSTYSLSSTL	TLSKADYEKH	KVYACEVTHQ	200?
+
+GLSSPVTKSF	NRGEC
+
+
+
+215?
+
+
+
+Disulfide bridges location / Position des ponts disulfure / 
+
+Posiciones de los puentes disulfuro
+
+22-97	22??-97??	23?-89?	23???-89???	135?-195?	135???-195???	149-205
+149??-205??
+
+215?-225	215???-225??	231-231??	234-234??	266-326	266??-326??	372-430
+372??-430??
+
+
+
+Glycosylation sites / Sites de glycosylation / Posiciones de
+glicosilaciun
+
+N = 	Asn-302	Asn-302??
+
+
+
+Molecular formula	C6466H10006N1730O2024S40
+
+Description
+
+% hB
+
+3
+
+7
+
+8
+
+o
+
+s
+
+t
+
+{
+
+
+
+?
+
+?
+
+	
+
+?
+
+?
+
+>
+
+H
+
+J
+
+yo
+
+W
+
+D
+
+(
+
+>
+
+????5?>
+
+H
+
+J
+
+?
+
+v
+
+?
+
+?
+
+yo
+
+????5?yo
+
+W
+
+D
+
+'
+
+r
+
+$
+
+$
+
+$
+
+kd1
+
+P
+
+$
+
+$
+
+??nm??
+
+#Homo sapiens tumor necrosis factor receptor superfamily member 10B
+(TNFRSF10B, death receptor 5, DR5, TNF-related apoptosis-inducing ligand
+receptor 2, TRAIL-R2, TR-2, CD262)], Homo sapiens monoclonal antibody,
+XG1-048 v w (or AMG 655, TRAIL-R2mAb); gamma1 heavy chain (1-452) [Homo
+sapiens VH (IGHV4-30-4-(IGHD)-IGHJ6*01) [8.7.14] (1-122) -IGHG1*03
+(123-452)], (225-215?)-disulfide with kappa light chain (1?-215?) [Homo
+sapiens V-KAPPA (IGKV3-20-IGKJ1*01) [7.3.9] (1?-108?) -IGKC*01
+(109?-215?)]; (231-231??:234-234??)-bisdisulfide dimer
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+9029
+
+1/1
+
+		
+

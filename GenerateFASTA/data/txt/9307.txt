@@ -1,0 +1,114 @@
+samalizumab (103)
+
+Structure	 
+
+Heavy chain / Chaone lourde / Cadena pesada
+
+QVQLQQSGSE LKKPGASVKI SCKASGYSFT DYIILWVRQN PGKGLEWIGH  50
+
+IDPYYGSSNY NLKFKGRVTI TADQSTTTAY MELSSLRSED TAVYYCGRSK 100
+
+RDYFDYWGQG TTLTVSSAST KGPSVFPLAP CSRSTSESTA ALGCLVKDYF 150
+
+PEPVTVSWNS GALTSGVHTF PAVLQSSGLY SLSSVVTVPS SNFGTQTYTC 200
+
+NVDHKPSNTK VDKTVERKCC VECPPCPAPP VAGPSVFLFP PKPKDTLMIS 250
+
+RTPEVTCVVV DVSQEDPEVQ FNWYVDGVEV HNAKTKPREE QFNSTYRVVS 300
+
+VLTVLHQDWL NGKEYKCKVS NKGLPSSIEK TISKAKGQPR EPQVYTLPPS 350
+
+QEEMTKNQVS LTCLVKGFYP SDIAVEWESN GQPENNYKTT PPVLDSDGSF 400
+
+FLYSRLTVDK SRWQEGNVFS CSVMHEALHN HYTQKSLSLS LG         442
+
+Light chain / Chaone lygire / Cadena ligera
+
+DIQMTQSPSS LSASIGDRVT ITCKASQDIN SYLSWFQQKP GKAPKLLIYR  50
+
+ANRLVDGVPS RFSGSGSGTD YTLTISSLQP EDFAVYYCLQ YDEFPYTFGG 100
+
+GTKLEIKRTV AAPSVFIFPP SDEQLKSGTA SVVCLLNNFY PREAKVQWKV 150
+
+DNALQSGNSQ ESVTEQDSKD STYSLSSTLT LSKADYEKHK VYACEVTHQG 200
+
+LSSPVTKSFN RGEC                                        214
+
+Disulfide bridges location / Position des ponts disulfure / Posiciones
+de los puentes disulfuro
+
+Intra-H	22-96	144-200	257-317	363-421
+
+	22??-96??	144??-200??	257??-317??	363??-421??
+
+Intra-L	23?-88?	134?-194?
+
+
+
+	23???-88???	134???-194???
+
+
+
+Inter-H-L	131-214?	131??-214???
+
+
+
+Inter-H-H	219-219??	220-220??	223-223??	226-226??
+
+
+
+N-glycosylation sites / Sites de N-glycosylation / Posiciones de
+N-glicosilaciun
+
+293, 293??
+
+CAS		1073059-33-2
+
+Description
+
+immunoglobulin G2-kappa, anti-[Homo sapiens CD200 (OX-2)], humanized
+monoclonal antibody;
+
+gamma2 heavy chain (1-442) [humanized VH (Homo sapiens IGHV1-69*01
+(73.50%) -(IGHD)-IGHJ4*01 L123>T, V124>L) [8.8.10] (1-117) -Homo sapiens
+IGHG2*01 CH1-hinge-CH2 1.6-1.1 (118-232)- IGHG4*01 CH2 1-125, CH3 1-129
+K130>del (233-442)], (131-214?)-disulfide with kappa light chain
+(1'-214') [humanized V-KAPPA (Homo sapiens IGKV1-33*01 (81.10%)
+-IGKJ2*01 Q120>G) [6.3.9] (1?-107?) -Homo sapiens IGKC*01 (108?-214?)];
+(219-219":220-220":223-223":226-226")-tetrakisdisulfide dimer 
+
+immunoglobuline G2-kappa, anti-[Homo sapiens CD200 (OX-2)], anticorps
+monoclonal humanisy; 
+
+chaone lourde gamma2 (1-442) [humanized VH (Homo sapiens IGHV1-69*01
+(73.50%) -(IGHD)-IGHJ4*01 L123>T, V124>L) [8.8.10] (1-117) -Homo sapiens
+IGHG2*01 CH1-hinge-CH2 1.6-1.1 (118-232)- IGHG4*01 CH2 1-125, CH3 1-129
+K130>del (233-442)], (131-214?)-disulfure avec la chaone lygire kappa
+(1'-214') [V-KAPPA humanisy (Homo sapiens IGKV1-33*01 (81.10%) -IGKJ2*01
+Q120>G) [6.3.9] (1?-107?) -Homo sapiens IGKC*01 (108?-214?)]; dimire
+(219-219":220-220":223-223":226-226")-tetrakisdisulfure
+
+inmunoglobulina G2-kappa, anti-[Homo sapiens CD200 (OX-2)], anticuerpo
+monoclonal humanizado; cadena pesado gamma2 (1-442) [humanizado VH (Homo
+sapiens IGHV1-69*01 (73.50%) - (IGHD)-IGHJ4*01 L123>T, V124>L) [8.8.10]
+(1-117) -Homo sapiens IGHG2*01 CH1-bisagra-CH2 1.6-1.1 (118-232)-
+IGHG4*01 CH2 1-125, CH3 1-129 K130>del (233-442)], (131-214?)-disulfuro
+con la
+
+cadena ligera kappa (1?-214?) [V-KAPPA humanizada(Homo sapiens
+IGKV1-33*01 (81.10%) -IGKJ2*01 Q120>G) [6.3.9] (1?-107?) -Homo sapiens
+IGKC*01 (108?-214?)]; dnmero
+(219-219":220-220":223-223":226-226")-tetrakisdisulfuro
+
+	
+
+WHO 
+
+International Nonproprietary Names Programme	
+
+30/06/2010
+
+9307
+
+		
+
