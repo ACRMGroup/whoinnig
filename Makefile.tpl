@@ -14,3 +14,5 @@ $(CATDOC) :
 
 clean :
 	\rm -f  index.html
+	\rm -rf GenerateFASTA/packages/catdoc-[%catdocVersion%]
+	\rm -rf GenerateFASTA/share

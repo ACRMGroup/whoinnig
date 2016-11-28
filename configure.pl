@@ -6,8 +6,9 @@ my %config=ReadConfig('config.cfg');
 linkfile($config{'menu'},   'menu.tt');
 linkfile($config{'header'}, 'header.tt');
 linkfile($config{'footer'}, 'footer.tt');
-#ttSubstitute('sacssummary.cgi.tpl',                 'sacssummary.cgi',                 %config);
-#`chmod +x sacssummary.cgi`;
+ttSubstitute('Makefile.tpl',                     'Makefile',                     %config);
+ttSubstitute('GenerateFASTA/buildcatdoc.sh.tpl', 'GenerateFASTA/buildcatdoc.sh', %config);
+`chmod +x GenerateFASTA/buildcatdoc.sh`;
 
 
 #*************************************************************************
