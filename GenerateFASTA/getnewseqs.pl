@@ -2,10 +2,54 @@
 
 use strict;
 
+$::dataDir = "data/";
+$::binDir  = "share/bin";
+
 
 my @allData = ParseINNMedNet();
-
 PrintAllData(@allData);
+
+GetMissingFiles($::dataDir, @allData)
+
+
+sub GetMissingFiles
+{
+    my($dataDir, @allData) = @_;
+
+    foreach my $item (@allData)
+    {
+        my $id      = $$item{'id'};
+        my $url     = $$item{'url'};
+        my $faaFile = "$dataDir/$id.faa";
+        if(! -e $faaFile)
+        { 
+            GrabURLAsFAA($url, $id, $faaFile);
+        }
+    }
+}
+
+sub GrabURLAsFAA
+{
+    my($url, $id, $faaFile) = @_;
+    my $tStem = "$$" .  time();
+    my $tmpDoc = "/var/tmp/$tStem.doc";
+    my $tmpTxt = "/var/tmp/$tStem.txt";
+
+    `wget -o $tmpDoc $url`;
+
+    DocToFAA($tmpDoc, $tmptxt, $faaFile);
+
+    unlink($tmpDoc);
+    unlink($tmpTxt);
+}
+
+
+sub DocToFAA
+{
+    my($tmpDoc, $tmpTxt, $faaFile) = @_; 
+    my $exe = "$::binDir/catdoc $tmpDoc > $tmpTxt";
+    `$exe`;
+}
 
 # ----------------------------------------------------------------------
 # Parses a INN MedNet .html results file to find URLs, IDs, Name,
@@ -18,55 +62,57 @@ PrintAllData(@allData);
 # - recommended
 sub ParseINNMedNet
 {
-    my $inRow = 0;
-    my $inData = 0;
-    my $column = -1;
-    my @allData = ();
-    my @data   = ();
+    my @allData   = ();
+    my @data      = ();
+    my $rowCount  = 0;
+    my $dataCount = -1;
+    my $inTD      = 0;
+    my $inRow     = 0;
+    my $td        = '';
 
     while(<>)
     {
         chomp;
 
-        if(/\<tr.*\>/)          # Start of a table row
+        # State machine
+        if(/\<tr.*\>/)
         {
-            $inRow  =  1;
-            $column = -1;
-            @data   = ();
+            $rowCount++;
+            $dataCount = -1;
+            $inRow     = 1;
         }
-        elsif(/\<\/tr\>/)       # End of a table row
+        if(/\<\/tr\>/)
         {
             $inRow = 0;
-            CleanData(\@data);
-            StoreData(\@allData, \@data);
+            if($rowCount > 1)
+            {
+                CleanData(\@data);
+                StoreData(\@allData, \@data);
+            }
         }
-        elsif($inRow)           # In a row
+
+        # Read data
+        if($inRow && ($rowCount > 1))
         {
-            if(/\<td\>/)        # In a <td>
+            if(/\<td\>/)
             {
-                $column++;
-                if(/\<td\>(.*)\<\/td\>/) # <td>.....</td>
-                {
-                    $data[$column] = $1;
-                }
-                else                     # <td> (data on following lines)
-                {
-                    $inData = 1;
-                    $data[$column] = '';
-                }
+                $inTD = 1;
+                $dataCount++;
+                $td = $_;
             }
-            elsif(/\<\/td\>/)   # </td>
+            if(/\<\/td\>/)
             {
-                $inData = 0;
+                $data[$dataCount] = $td;
+                $inTD = 0;
+                $td = '';
             }
-            elsif($inData)      # Between <td> and </td>
+            if($inTD)
             {
-                s/^\s+//;
-                s/\s+$//;
-                $data[$column] .= " $_";
+                $td .= $_;
             }
         }
     }
+
     return(@allData); 
 }
 

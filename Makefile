@@ -1,10 +1,16 @@
 INCLUDES  = menu.tt header.tt footer.tt \
             generated_latest.tt generated_previous.tt  
+CATDOC    = GenerateFASTA/share/bin/catdoc
 
-all : index.html 
+
+all : index.html $(CATDOC)
 
 index.html : index.tt $(INCLUDES)
 	tpage $< > $@
+
+
+$(CATDOC) : 
+	./GenerateFASTA/buildcatdoc.sh
 
 clean :
 	\rm -f  index.html
