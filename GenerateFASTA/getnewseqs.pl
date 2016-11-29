@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -s
 
 use strict;
 
@@ -6,6 +6,13 @@ $::dataDir = "./data";
 $::binDir  = "share/bin";
 $::URLBase = "https://mednet-communities.net/inn/db";
 
+
+if(defined($::txt))
+{
+    print "Converting $::dataDir/txt/$::txt.txt to $::dataDir/faa/$::txt.faa\n";
+    TxtToFAA('test', "$::dataDir/txt/$::txt.txt", "$::dataDir/faa/$::txt.faa");
+    exit 0;
+}
 
 my @allData = ParseINNMedNet();
 PrintAllData(@allData);
@@ -177,30 +184,46 @@ sub TxtToFAA
 {
     my($name, $tmpTxt, $faaFile) = @_; 
 
+    $name =~ /mabum$/mab/;      # Convert Latin to English
+
     if(open(my $inFp, '<', $tmpTxt))
     {
         if(open(my $outFp, '>', $faaFile))
         {
+            my $printed = 0;
             my $inChain = 0;
             my $chain   = '';
-            my $seq     = '';
+            my $hcCount = 0;
+            my $lcCount = 0;
             while(<$inFp>)
             {
                 chomp;
                 s/^\s+//;
                 if(length)
                 {
-                    if(/^heavy/i)
+                    if(/(.*)heavy/i)
                     {
-                        $inChain = 1;
-                        $seq     = '';
-                        print $outFp ">${name}_H\n";
+                        my $preLabel = $1;
+                        $preLabel    =~ s/^\s//;
+                        $inChain     = 1;
+                        $hcCount++;
+                        my $id       = ">${name}_H";
+                        $id         .= "$hcCount"   if($hcCount > 1);
+                        $id         .= "|$preLabel" if ($preLabel ne '');
+                        print $outFp "$id\n";
+                        $printed     = 1;
                     }
-                    elsif(/^light/i)
+                    elsif(/light/i)
                     {
-                        $inChain = 1;
-                        $seq     = '';
-                        print $outFp ">${name}_L\n";
+                        my $preLabel = $1;
+                        $preLabel    =~ s/^\s//;
+                        $inChain     = 1;
+                        $lcCount++;
+                        my $id       = ">${name}_L";
+                        $id         .= "$lcCount" if($lcCount > 1);
+                        $id         .= "|$preLabel" if ($preLabel ne '');
+                        print $outFp "$id\n";
+                        $printed     = 1;
                     }
                     elsif(/disulphide/i || /disulfide/i)
                     {
@@ -209,12 +232,52 @@ sub TxtToFAA
                     elsif($inChain)
                     {
                         s/\s+/ /g;
-                        s/[0-9]//g;
+                        s/[0-9\']//g;
                         s/\?//g;
                         print $outFp "$_\n";
                     }
                 }
             }
+
+            # No output so far, so try again, just looking for 'structure'
+            if(!$printed)
+            {
+                seek($inFp, 0, 0);
+                my $cCount=0;
+
+                while(<$inFp>)
+                {
+                    chomp;
+                    s/^\s+//;
+                    if(length)
+                    {
+                        if(/(.*)structure/i)
+                        {
+                            my $preLabel = $1;
+                            $preLabel    =~ s/^\s//;
+                            $inChain     = 1;
+                            $cCount++;
+                            my $id       = ">${name}";
+                            $id         .= "_$cCount"   if($cCount > 1);
+                            $id         .= "|$preLabel" if ($preLabel ne '');
+                            print $outFp "$id\n";
+                            $printed     = 1;
+                        }
+                        elsif(/disulphide/i || /disulfide/i)
+                        {
+                            $inChain = 0;
+                        }
+                        elsif($inChain)
+                        {
+                            s/\s+/ /g;
+                            s/[0-9\']//g;
+                            s/\?//g;
+                            print $outFp "$_\n";
+                        }
+                    }
+                }
+            }
+
             close $outFp;
         }
         else

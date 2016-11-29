@@ -15,12 +15,14 @@ FTFGPGTKVD IRRTVAAPSV FIFPPSDEQL KSGTASVVCL LNNFYPREAK
 VQWKVDNALQ SGNSQESVTE QDSKDSTYSL SSTLTLSKAD YEKHKVYACE 
 VTHQGLSSPV TKSFNRGEC
 
->lucatumumabum_L
->lucatumumabum_H
-Interchain: Light Chain C-Heavy Chain , Heavy Chain  C-Heavy
-Chain  C, Heavy Chain  C - Heavy Chain  C
+>lucatumumabum_L2
+>lucatumumabum_H2
+>lucatumumabum_H3|Interchain: Light Chain C219-Heavy Chain 223, Heavy Chain 1 C229-
+>lucatumumabum_H4|Chain 2 C229, Heavy Chain 1 C232 - 
 Description
 immunoglobulin G, anti-[Homo sapiens CD (TNF receptor superfamily
-member , TNFRSF)] human monoclonal antibody CHIR-.; gamma heavy
+>lucatumumabum_H5|member 5, TNFRSF5)] human monoclonal antibody CHIR-12.12; gamma1 
 chain [Homo sapiens VH [..] -IGHG* (CH S>A), no C-terminal
 lysine] from clone 
+>lucatumumabum_L3
+V-KAPPA (IGKV--IGJK*, K>R) [..] -IGKC*] from clone
