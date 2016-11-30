@@ -184,7 +184,7 @@ sub TxtToFAA
 {
     my($name, $tmpTxt, $faaFile) = @_; 
 
-    $name =~ /mabum$/mab/;      # Convert Latin to English
+    $name =~ s/mabum$/mab/;      # Convert Latin to English
 
     if(open(my $inFp, '<', $tmpTxt))
     {
@@ -195,6 +195,10 @@ sub TxtToFAA
             my $chain   = '';
             my $hcCount = 0;
             my $lcCount = 0;
+            my @headers = ();
+            my @seqs    = ();
+            my $entryCount  = -1;
+
             while(<$inFp>)
             {
                 chomp;
@@ -210,7 +214,9 @@ sub TxtToFAA
                         my $id       = ">${name}_H";
                         $id         .= "$hcCount"   if($hcCount > 1);
                         $id         .= "|$preLabel" if ($preLabel ne '');
-                        print $outFp "$id\n";
+                        $entryCount++;
+                        $headers[$entryCount] = $id;
+                        $seqs[$entryCount]    = '';
                         $printed     = 1;
                     }
                     elsif(/light/i)
@@ -222,7 +228,9 @@ sub TxtToFAA
                         my $id       = ">${name}_L";
                         $id         .= "$lcCount" if($lcCount > 1);
                         $id         .= "|$preLabel" if ($preLabel ne '');
-                        print $outFp "$id\n";
+                        $entryCount++;
+                        $headers[$entryCount]  = $id;
+                        $seqs[$entryCount]     = '';
                         $printed     = 1;
                     }
                     elsif(/disulphide/i || /disulfide/i)
@@ -232,9 +240,11 @@ sub TxtToFAA
                     elsif($inChain)
                     {
                         s/\s+/ /g;
-                        s/[0-9\']//g;
-                        s/\?//g;
-                        print $outFp "$_\n";
+                        s/[0-9\'\?\*]//g;
+                        if(! /[\(\)]/)
+                        {
+                            $seqs[$entryCount] .= "$_\n";
+                        }
                     }
                 }
             }
@@ -260,7 +270,8 @@ sub TxtToFAA
                             my $id       = ">${name}";
                             $id         .= "_$cCount"   if($cCount > 1);
                             $id         .= "|$preLabel" if ($preLabel ne '');
-                            print $outFp "$id\n";
+                            $entryCount++;
+                            $headers[$entryCount] = $id;
                             $printed     = 1;
                         }
                         elsif(/disulphide/i || /disulfide/i)
@@ -270,12 +281,20 @@ sub TxtToFAA
                         elsif($inChain)
                         {
                             s/\s+/ /g;
-                            s/[0-9\']//g;
-                            s/\?//g;
-                            print $outFp "$_\n";
+                            s/[0-9\'\?\*]//g;
+                            if(! /[\(\)]/)
+                            {
+                                $seqs[$entryCount] .= "$_\n";
+                            }
                         }
                     }
                 }
+            }
+
+            for(my $i=0; $i<=$entryCount; $i++)
+            {
+                print $outFp "$headers[$i]\n";
+                print $outFp "$seqs[$i]\n";
             }
 
             close $outFp;
