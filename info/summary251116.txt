@@ -1,0 +1,11 @@
+
+    Number of antibodies in the dataset with sequence 258
+
+    Number of antibodies in the dataset with no sequence 113
+
+    Number of antibodies absent 0
+
+    Number of newly added antibodies with sequence 102
+
+    Number of newly added antibodies with no sequence 111 
+
