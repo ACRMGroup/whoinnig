@@ -184,7 +184,7 @@ sub TxtToFAA
 {
     my($name, $tmpTxt, $faaFile) = @_; 
 
-    $name =~ s/mabum$/mab/;      # Convert Latin to English
+#    $name =~ s/mabum$/mab/;      # Convert Latin to English
 
     if(open(my $inFp, '<', $tmpTxt))
     {
@@ -233,9 +233,10 @@ sub TxtToFAA
                         $seqs[$entryCount]     = '';
                         $printed     = 1;
                     }
-                    elsif(/disulphide/i || /disulfide/i)
+                    elsif(/disulphide/i || /disulfide/i || /description/i)
                     {
                         $inChain = 0;
+                        last;
                     }
                     elsif($inChain)
                     {
@@ -293,8 +294,11 @@ sub TxtToFAA
 
             for(my $i=0; $i<=$entryCount; $i++)
             {
-                print $outFp "$headers[$i]\n";
-                print $outFp "$seqs[$i]\n";
+                if(length($seqs[$i]))
+                {
+                    print $outFp "$headers[$i]\n";
+                    print $outFp "$seqs[$i]\n";
+                }
             }
 
             close $outFp;
