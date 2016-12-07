@@ -190,13 +190,14 @@ sub TxtToFAA
     {
         if(open(my $outFp, '>', $faaFile))
         {
-            my $printed = 0;
-            my $inChain = 0;
-            my $chain   = '';
-            my $hcCount = 0;
-            my $lcCount = 0;
-            my @headers = ();
-            my @seqs    = ();
+            my $printed     = 0;
+            my $inChain     = 0;
+            my $chain       = '';
+            my $hcCount     = 0;
+            my $lcCount     = 0;
+            my $unkCount    = 0;
+            my @headers     = ();
+            my @seqs        = ();
             my $entryCount  = -1;
 
             while(<$inFp>)
@@ -205,7 +206,7 @@ sub TxtToFAA
                 s/^\s+//;
                 if(length)
                 {
-                    if(/(.*)heavy/i)
+                    if(/(.*)heavy/i) # Heavy chain label
                     {
                         my $preLabel = $1;
                         $preLabel    =~ s/^\s//;
@@ -219,7 +220,7 @@ sub TxtToFAA
                         $seqs[$entryCount]    = '';
                         $printed     = 1;
                     }
-                    elsif(/light/i)
+                    elsif(/(.*)light/i)   # Light chain label
                     {
                         my $preLabel = $1;
                         $preLabel    =~ s/^\s//;
@@ -233,18 +234,41 @@ sub TxtToFAA
                         $seqs[$entryCount]     = '';
                         $printed     = 1;
                     }
-                    elsif(/disulphide/i || /disulfide/i || /description/i)
+                    elsif(/(.*)\-*chain(.*?)\//i ||
+                          /(.*)(hinge.*?)\//i)     # Unspecified chain
+                    {
+                        my $preLabel = $1;
+                        $preLabel    =~ s/^\s//;
+                        my $postLabel = $2;
+                        $postLabel    =~ s/^\s//;
+                        $inChain     = 1;
+                        $unkCount++;
+                        my $id       = ">${name}_X";
+                        $id         .= "$unkCount" if($unkCount > 1);
+                        $id         .= "|$preLabel" if ($preLabel ne '');
+                        $id         .= "|$postLabel" if ($postLabel ne '');
+                        $entryCount++;
+                        $headers[$entryCount]  = $id;
+                        $seqs[$entryCount]     = '';
+                        $printed     = 1;
+                    }
+                    elsif(/disulphide/i || 
+                          /disulfide/i  ||
+                          /description/i)    # End of sequence data
                     {
                         $inChain = 0;
                         last;
                     }
-                    elsif($inChain)
+                    elsif($inChain) # In the sequence
                     {
                         s/\s+/ /g;
                         s/[0-9\'\?\*]//g;
-                        if(! /[\(\)]/)
+                        if(length)
                         {
-                            $seqs[$entryCount] .= "$_\n";
+                            if(! /[\(\)]/)
+                            {
+                                $seqs[$entryCount] .= "$_\n";
+                            }
                         }
                     }
                 }

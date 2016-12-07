@@ -1,6 +1,9 @@
-nimotuzumab - check sequence records; Check ' removed
-ipilimumab - Remove weird chain record - use to count chains
-ocrelisumab - Ditto
+ipilimumab - Chain records not being found properly - appears as one chain
+
+ocrelizumab - Chain labels miss heavy/light so appear in sequence (8636)
+
+
+
 tadocizumabum - weird chain record - seems to be a blank chain too
 denosumabum_H2 - loads of crud...
 efungumabum - ended by Description instead of disulfide
@@ -29,13 +32,7 @@ tigatuzumabum - blank
 conatumumabum - H bank then has L header (check for legere / ligera)
 radretumabum  - scFv-CH chain
 ozoralizumabum - scVH-VH'-VH chain
+onartuzumabum - weird 3rd chain not being labelled properly (9368.faa)
 
 
-Differences from reference
-==========================
-
-8636.faa
-9368.faa
-9985.faa
-
-
+9368
