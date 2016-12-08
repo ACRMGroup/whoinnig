@@ -254,6 +254,7 @@ sub TxtToFAA
                     }
                     elsif(/disulphide/i || 
                           /disulfide/i  ||
+                          /formula/i    ||   # 8818
                           /description/i)    # End of sequence data
                     {
                         $inChain = 0;
@@ -299,7 +300,10 @@ sub TxtToFAA
                             $headers[$entryCount] = $id;
                             $printed     = 1;
                         }
-                        elsif(/disulphide/i || /disulfide/i)
+                        elsif(/disulphide/i || 
+                              /disulfide/i  ||
+                              /formula/i  ||   # 8818
+                              /description/i)
                         {
                             $inChain = 0;
                         }
