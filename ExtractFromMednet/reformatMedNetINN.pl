@@ -2,6 +2,8 @@
 
 # Script to extract key data from the INN Mednet HTML search results
 # Puts the key information in separate lines
+#
+# Note the file must be edited down to the main table
 
 
 use strict;
