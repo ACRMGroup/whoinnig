@@ -51,5 +51,5 @@ tadocizumabum     8651 - Second chain not converted
 gantenerumabum    8894
 
 # Corrupt files
-10060 is a .docx file not a .doc file. The antibody name is missing.
+pamrevlumab       10060 - a .docx file. The antibody name is missing.
 
