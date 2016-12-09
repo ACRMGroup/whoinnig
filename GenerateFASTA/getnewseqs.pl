@@ -17,9 +17,17 @@ if(defined($::txt))
 my @allData = ParseINNMedNet();
 PrintAllData(@allData);
 
+CreateDirs($::dataDir);
 GetMissingFiles($::dataDir, @allData);
-
 CopyInManualFiles($::dataDir);
+
+sub CreateDirs
+{
+    my($dataDir) = @_;
+
+    `mkdir $dataDir/txt` if(! -d "$dataDir/txt");
+    `mkdir $dataDir/faa` if(! -d "$dataDir/faa");
+}
 
 sub CopyInManualFiles
 {
