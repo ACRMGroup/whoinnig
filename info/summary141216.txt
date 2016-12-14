@@ -1,0 +1,3 @@
+total antibodies: 371
+antibodies with sequence: 261
+antibodies with no sequence: 110
