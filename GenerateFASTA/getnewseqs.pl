@@ -17,8 +17,23 @@ if(defined($::txt))
 my @allData = ParseINNMedNet();
 PrintAllData(@allData);
 
+CreateDirs($::dataDir);
 GetMissingFiles($::dataDir, @allData);
+CopyInManualFiles($::dataDir);
 
+sub CreateDirs
+{
+    my($dataDir) = @_;
+
+    `mkdir $dataDir/txt` if(! -d "$dataDir/txt");
+    `mkdir $dataDir/faa` if(! -d "$dataDir/faa");
+}
+
+sub CopyInManualFiles
+{
+    my($dataDir) = @_;
+    `cp $dataDir/manual/* $dataDir/faa`;
+}
 
 sub GetMissingFiles
 {
@@ -184,7 +199,7 @@ sub TxtToFAA
 {
     my($name, $tmpTxt, $faaFile) = @_; 
 
-#    $name =~ s/mabum$/mab/;      # Convert Latin to English
+    $name =~ s/mabum$/mab/;      # Convert Latin to English
 
     if(open(my $inFp, '<', $tmpTxt))
     {
@@ -206,7 +221,7 @@ sub TxtToFAA
                 s/^\s+//;
                 if(length)
                 {
-                    if(/(.*)heavy/i) # Heavy chain label
+                    if(/(.*)(heavy|gamma)/i) # Heavy chain label
                     {
                         my $preLabel = $1;
                         $preLabel    =~ s/^\s//;
@@ -220,7 +235,7 @@ sub TxtToFAA
                         $seqs[$entryCount]    = '';
                         $printed     = 1;
                     }
-                    elsif(/(.*)light/i)   # Light chain label
+                    elsif(/(.*)(light|kappa|lambda)/i)   # Light chain label
                     {
                         my $preLabel = $1;
                         $preLabel    =~ s/^\s//;
@@ -254,9 +269,14 @@ sub TxtToFAA
                     }
                     elsif(/disulphide/i || 
                           /disulfide/i  ||
-                          /formula/i    ||   # 8818
+                          /formula/i    ||   # 8818, 8836
                           /description/i)    # End of sequence data
                     {
+                        if(defined($::info))
+                        {
+                            print $outFp "***FORMULA***\n" if(/formula/i);
+                            print $outFp "***DESCRIPTION***\n" if(/description/i);
+                        }
                         $inChain = 0;
                         last;
                     }
@@ -268,7 +288,7 @@ sub TxtToFAA
                         {
                             if(! /[\(\)]/)
                             {
-                                $seqs[$entryCount] .= "$_\n";
+                                $seqs[$entryCount] .= "\U$_\n";
                             }
                         }
                     }
@@ -289,6 +309,10 @@ sub TxtToFAA
                     {
                         if(/(.*)structure/i)
                         {
+                            if(defined($::info))
+                            {
+                                print $outFp "***STRUCTURE NOT CHAIN***\n";
+                            }
                             my $preLabel = $1;
                             $preLabel    =~ s/^\s//;
                             $inChain     = 1;
@@ -302,9 +326,14 @@ sub TxtToFAA
                         }
                         elsif(/disulphide/i || 
                               /disulfide/i  ||
-                              /formula/i  ||   # 8818
+                              /formula/i  ||   # 8818, 8836
                               /description/i)
                         {
+                            if(defined($::info))
+                            {
+                                print $outFp "***FORMULA***\n" if(/formula/i);
+                                print $outFp "***DESCRIPTION***\n" if(/description/i);
+                            }
                             $inChain = 0;
                         }
                         elsif($inChain)
@@ -313,7 +342,7 @@ sub TxtToFAA
                             s/[0-9\'\?\*]//g;
                             if(! /[\(\)]/)
                             {
-                                $seqs[$entryCount] .= "$_\n";
+                                $seqs[$entryCount] .= "\U$_\n";
                             }
                         }
                     }
